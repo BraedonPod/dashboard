@@ -1,8 +1,8 @@
-import { CircleMarker  } from 'react-leaflet';
 import React, { useState, useEffect } from 'react';
-import { Map, Popup, TileLayer } from 'react-leaflet';
+import { Map, TileLayer } from 'react-leaflet';
 import { fetchDailyData } from '../../api/earthquake';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import Marker from './Marker';
 import './leaflet.css';
 
 function QuakeMap({mapData, mapSelector}) {
@@ -16,23 +16,15 @@ function QuakeMap({mapData, mapSelector}) {
         fetchAPI();
     }, []);
 
-    const defaultMap = (
+    const defaultMap = (        
         earthquakes.length ? (
             <Map center={position} zoom={2} minZoom={2} worldCopyJump={true}>
                 <TileLayer
                     //url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
                 />
-                {earthquakes.map((quak, index) => (
-                    <CircleMarker key={index} center={[quak.coordinates[1], quak.coordinates[0]]} color="red" radius={quak.mag*2}>
-                        <Popup>
-                            <span>
-                                Mag: {quak.mag}
-                                <br />{ quak.time } 
-                                <br />Location: {quak.place}
-                            </span>
-                        </Popup>
-                    </CircleMarker>
+                {earthquakes.map((quake, index) => (
+                    <Marker key={index} quake={quake} index={index} />
                 ))}
             </Map>   
         ) : <CircularProgress />
@@ -44,16 +36,8 @@ function QuakeMap({mapData, mapSelector}) {
                 <TileLayer
                     url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
                 />
-                {mapData.map((quak, index) => (
-                    <CircleMarker key={index}  center={[quak.coordinates[1], quak.coordinates[0]]} color="red" radius={quak.mag*2}>
-                        <Popup>
-                            <span>
-                                Mag: {quak.mag}
-                                <br />{ quak.time } 
-                                <br />Location: {quak.place}
-                            </span>
-                        </Popup>
-                    </CircleMarker>
+                {mapData.map((quake, index) => (
+                    <Marker key={index} quake={quake} index={index} />
                 ))}
             </Map>   
         ) : <CircularProgress />
