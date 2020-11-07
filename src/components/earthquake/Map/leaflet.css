@@ -478,9 +478,9 @@ svg.leaflet-image-layer.leaflet-interactive path {
 	margin: 13px 19px;
 	line-height: 1.4;
 	}
-.leaflet-popup-content p {
+/* .leaflet-popup-content p {
 	margin: 18px 0;
-	}
+	} */
 .leaflet-popup-tip-container {
 	width: 40px;
 	height: 20px;

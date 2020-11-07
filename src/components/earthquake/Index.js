@@ -48,7 +48,6 @@ export class Index extends Component {
     render() {
         const { dailyData, monthlyData, mapSelector, mapData } = this.state;
         const { classes } = this.props;
-
         return (
             <>
                 <div className="container">

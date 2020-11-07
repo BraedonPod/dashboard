@@ -13,7 +13,7 @@ export const fetchData = async (timeset) => {
             id: data.id,
             coordinates: data.geometry.coordinates,
             title: data.properties.title,
-            time: moment(data.properties.time).format("dddd, MMMM Do YYYY, h:mm:ss a"),
+            time: moment(data.properties.time).format("MMMM Do YYYY, h:mm:ss a"),
             mag: data.properties.mag,
             place: data.properties.place,
         }));
@@ -28,7 +28,7 @@ export const fetchDailyData = async () => {
             id: data.id,
             coordinates: data.geometry.coordinates,
             title: data.properties.title,
-            time: moment(data.properties.time).format("dddd, MMMM Do YYYY, h:mm:ss a"),
+            time: moment(data.properties.time).format("MMMM Do YYYY, h:mm:ss a"),
             mag: data.properties.mag,
             place: data.properties.place,
         }));
@@ -45,7 +45,7 @@ export const fetchMonthlyData = async () => {
             id: data.id,
             coordinates: data.geometry.coordinates,
             title: data.properties.title,
-            time: moment(data.properties.time).format("dddd, MMMM Do YYYY, h:mm:ss a"),
+            time: moment(data.properties.time).format("MMMM Do YYYY, h:mm:ss a"),
             mag: data.properties.mag,
             place: data.properties.place,
         }));
