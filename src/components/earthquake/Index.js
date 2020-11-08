@@ -1,43 +1,34 @@
 import React, { Component } from 'react'
 import EarthquakeMap from './Map/QuakeMap';
-import { fetchDailyData, fetchMonthlyData, fetchData } from '../api/earthquake';
+import { fetchDailyData, fetchMonthlyData, fetchData, fetchHourlyData, fetchWeeklyData } from '../api/earthquake';
 import Statistics from './Statistics/Statistics';
-import { withStyles  } from '@material-ui/core/styles';
-import Paper from '@material-ui/core/Paper';
-import Grid from '@material-ui/core/Grid';
-import PropTypes from 'prop-types';
-
 import Picker from './Map/Picker';
+import Cards from './Cards/Cards';
+import Grid from '@material-ui/core/Grid';
 
-const styles ={
-    grid: {
-        textAlign: 'center',
-    },
-    gridItems: {
-        color: 'white',
-        marginBottom: 10,
-    }, 
-    paper: {
-        backgroundColor: '#1a2430',
-        color: 'white',
-        height: 600,
-    }
-  };
 
 
 export class Index extends Component {
     state = {
         dailyData: [],
+        hourlyData: [],
+        weeklyData: [],
         monthlyData: [],
         mapSelector: "",
         mapData: []
     }
 
+    //Clean this up!
     async componentDidMount() {
         const fetchedDailyData = await fetchDailyData();
         this.setState({dailyData: fetchedDailyData });
         const fetchedMontlyData = await fetchMonthlyData();
         this.setState({monthlyData: fetchedMontlyData});
+
+        const fetchedHourlyData = await fetchHourlyData();
+        this.setState({hourlyData: fetchedHourlyData});
+        const fetchedWeeklyData = await fetchWeeklyData();
+        this.setState({weeklyData: fetchedWeeklyData});
     }
 
     handleMapChange = async (mapSelector) => {
@@ -46,47 +37,19 @@ export class Index extends Component {
     }
 
     render() {
-        const { dailyData, monthlyData, mapSelector, mapData } = this.state;
-        const { classes } = this.props;
+        const { dailyData, monthlyData, mapSelector, mapData, weeklyData, hourlyData } = this.state;
         return (
             <>
                 <div className="container">
                     <h1>Earthquake</h1>
-                    <Grid container spacing={2} className={classes.grid}>
-                        <Grid item xs={12} md={3} className={classes.gridItems}>
-                            <Paper className={classes.paper}>
-                                <h2 className="earthquake-status-title">Daily</h2>
-                                <Statistics data={dailyData} />
-                            </Paper>
+                    <Cards hourly={hourlyData.length} daily={dailyData.length} weekly={weeklyData.length} monthly={monthlyData.length} />
+                    <Grid container spacing={2}>
+                        <Grid item xs={12} md={8}>
+                            <Picker handleMapChange={this.handleMapChange} />
+                            <EarthquakeMap  mapData={mapData} mapSelector={mapSelector} />
                         </Grid>
-                        <Grid item xs={12} md={6} className={classes.gridItems}>
-                            <Paper className={classes.paper}>
-                                <Picker handleMapChange={this.handleMapChange} />
-                                <EarthquakeMap  mapData={mapData} mapSelector={mapSelector} />
-                            </Paper>
-                        </Grid>
-                        <Grid item xs={12} md={3} className={classes.gridItems}> 
-                            <Paper className={classes.paper}>
-                                <h2 className="earthquake-status-title">Past 30 Days</h2>
-                                <Statistics data={monthlyData} />
-                            </Paper>
-                        </Grid>
-                    </Grid>
-                    <Grid container spacing={2} className={classes.grid}>
-                        <Grid item xs={12} md={3} className={classes.gridItems}>
-                            <Paper className={classes.paper}>
-                                <h2 className="earthquake-status-title">Daily by Country</h2>
-                            </Paper>
-                        </Grid>
-                        <Grid item xs={12} md={6} className={classes.gridItems}>
-                            <Paper className={classes.paper}>
-                                <h2 className="earthquake-status-title">Earthquake Faqs</h2>
-                            </Paper>
-                        </Grid>
-                        <Grid item xs={12} md={3} className={classes.gridItems}> 
-                            <Paper className={classes.paper}>
-                                <h2 className="earthquake-status-title">Past 30 Days by Country</h2>
-                            </Paper>
+                        <Grid item xs={12} md={4}>
+                            <Statistics data={mapData} />
                         </Grid>
                     </Grid>
                 </div>
@@ -95,8 +58,4 @@ export class Index extends Component {
     }
 }
 
-Index.propTypes = {
-    classes: PropTypes.object.isRequired,
-};
-
-export default withStyles(styles)(Index)
+export default Index

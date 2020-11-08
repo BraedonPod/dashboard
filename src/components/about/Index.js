@@ -41,11 +41,11 @@ function Index() {
                     <CardHeader title="About"  subheader="Earthquakes / Covid / And many more!" />
                     <Divider />
                     <CardContent>
-                        <Typography variant="body2" component="p" className={classes.typography}>
+                        <Typography variant="body2" component="span" className={classes.typography}>
                             <h3>Application Info</h3>
-                            Version 0.0.1
+                            <p>Version 0.0.1</p>
                             <p className={classes.p}>This application is open source at</p>
-                            <Link href="https://github.com/BraedonPod/dashboard">https://github.com/BraedonPod/dashboard</Link>
+                            <p><Link href="https://github.com/BraedonPod/dashboard">https://github.com/BraedonPod/dashboard</Link></p>
 
                             <h3>API</h3>
                             <p className={classes.p}><Link href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">Earthquake USGS</Link> - Earthquake API</p>

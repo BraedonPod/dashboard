@@ -3,6 +3,7 @@ import { Card, CardContent, Typography, Grid } from '@material-ui/core';
 import CountUp from 'react-countup';
 import cx from 'classnames';
 import { makeStyles } from '@material-ui/core/styles';
+import CircularProgress from '@material-ui/core/CircularProgress';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -31,7 +32,7 @@ function Cards({data: { confirmed, recovered, deaths, lastUpdate }}) {
     const classes = useStyles();
 
     if(!confirmed) {
-        return 'loading...';
+        return <CircularProgress />;
     }
     return (
         <div className={classes.container}>
