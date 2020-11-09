@@ -15,77 +15,82 @@ const useStyles = makeStyles((theme) => ({
         backgroundColor: '#1a2430',
         color: 'white',
     },
-    hourly: {
-        borderBottom: '20px solid rgba(255,255,255,0.5);',
-    },
-    daily: {
+    total: {
         borderBottom: '20px solid rgba(0,0,255,0.5);',
     },
-    weekly: {
+    smallMag: {
         borderBottom: '20px solid rgba(0,255,0,0.5)',
     },
-    monthly: {
+    mag: {
         borderBottom: '20px solid rgba(255,0,0,0.5)',
     },
     pos: {
         color: 'rgba(255, 255, 255, .5) !important',
+    },
+    coords: {
+        color: 'lightblue',
+        '&:hover' : {
+            color: 'blue',
+        },
     }
   }));
 
-function Cards({ hourly, daily, weekly, monthly }) {
+function Cards({ data, display, pos }) {
     const classes = useStyles();
-    if(!daily) {
-        return <CircularProgress />;
-    }
+    
+    if(data.length === 0) {return <CircularProgress />;}
+    if(display === undefined){display = "all_day"}
+    data.sort(function(a, b) {
+        return b.mag - a.mag;
+    })
+
     return (
         <div className={classes.container}>
             <Grid container spacing={2} justify="center">
-                <Grid item component={Card} xs={12} md={2} className={cx(classes.card, classes.hourly)}>
+                <Grid item component={Card} xs={12} md={2} className={cx(classes.card, classes.total)}>
                     <CardContent>
-                        <Typography color="textSecondary" className={classes.pos} gutterBottom>Hourly</Typography>
+                        <Typography color="textSecondary" className={classes.pos} gutterBottom>Total</Typography>
                         <Typography variant="h5">
-                            <CountUp start={0} end={ hourly } duration={2.5} separator="," />
+                            <CountUp start={0} end={ data.length } duration={2.5} separator="," />
                         </Typography>
                         <Typography color="textSecondary" className={classes.pos}>
                             <small>{moment().format('MMMM Do YYYY, h:mm:ss a')}</small>
                         </Typography>
-                        <Typography variant="body2">Number of earthquakes this past hour</Typography>
+                        <Typography variant="body2">Number of earthquakes this past {display.split("_")[1]}</Typography>
                     </CardContent>
                 </Grid>
-                <Grid item component={Card} xs={12} md={2} className={cx(classes.card, classes.daily)}>
+                <Grid item component={Card} xs={12} md={2} className={cx(classes.card, classes.smallMag)}>
                     <CardContent>
-                        <Typography color="textSecondary" className={classes.pos} gutterBottom>Daily</Typography>
+                        <Typography color="textSecondary" className={classes.pos} gutterBottom>Smallest Earthquake</Typography>
                         <Typography variant="h5">
-                            <CountUp start={0} end={ daily } duration={2.5} separator="," /> 
+                            <CountUp start={0} end={ data[data.length-1].mag } duration={2.5} separator=","  decimals={1} /> 
                         </Typography>
                         <Typography color="textSecondary" className={classes.pos}>
-                            <small>{moment().format('MMMM Do YYYY, h:mm:ss a')}</small>
+                            <small>{data[data.length-1].time}</small>
                         </Typography>
-                        <Typography variant="body2">Number of earthquakes this past Day</Typography>
+                        <Typography variant="body2">{data[data.length-1].place}</Typography>
+                        <Typography color="textSecondary" className={classes.pos}>
+                            <small className={classes.coords} onClick={(e) => pos(data[data.length-1].coordinates[1] + ", "+ data[data.length-1].coordinates[0])}>
+                                {data[data.length-1].coordinates[1]}, {data[data.length-1].coordinates[0]}
+                            </small>
+                        </Typography>
                     </CardContent>
                 </Grid>
-                <Grid item component={Card} xs={12} md={2} className={cx(classes.card, classes.weekly)}>
+                <Grid item component={Card} xs={12} md={2} className={cx(classes.card, classes.mag)}>
                     <CardContent>
-                        <Typography color="textSecondary" className={classes.pos} gutterBottom>Weekly</Typography>
+                        <Typography color="textSecondary" className={classes.pos} gutterBottom>Biggest Earthquake</Typography>
                         <Typography variant="h5">
-                            <CountUp start={0} end={ weekly } duration={2.5} separator="," /> 
+                            <CountUp start={0} end={ data[0].mag } duration={2.5} separator=","  decimals={1} /> 
                         </Typography>
                         <Typography color="textSecondary" className={classes.pos}>
-                            <small>{moment().format('MMMM Do YYYY, h:mm:ss a')}</small>
+                            <small>{data[0].time}</small>
                         </Typography>
-                        <Typography variant="body2">Number of earthquakes this past Week</Typography>
-                    </CardContent>
-                </Grid>
-                <Grid item component={Card} xs={12} md={2} className={cx(classes.card, classes.monthly)}>
-                    <CardContent>
-                        <Typography color="textSecondary" className={classes.pos} gutterBottom>Monthly</Typography>
-                        <Typography variant="h5">
-                            <CountUp start={0} end={ monthly } duration={2.5} separator="," /> 
-                        </Typography>
+                        <Typography variant="body2">{data[0].place}</Typography>
                         <Typography color="textSecondary" className={classes.pos}>
-                            <small>{moment().format('MMMM Do YYYY, h:mm:ss a')}</small>
+                            <small className={classes.coords} onClick={(e) => pos(data[0].coordinates[1]+", "+ data[0].coordinates[0])}>
+                                {data[0].coordinates[1]}, {data[0].coordinates[0]}
+                            </small>
                         </Typography>
-                        <Typography variant="body2">Number of earthquakes this past Month</Typography>
                     </CardContent>
                 </Grid>
             </Grid>

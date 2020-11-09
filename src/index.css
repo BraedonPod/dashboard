@@ -12,7 +12,7 @@ body {
 }
 
 .leaflet-container {
-  height: 650px;
+  height: 600px;
   width: 100%;
   background-color: #1a2430;
 }
@@ -37,4 +37,14 @@ body {
 }
 .MuiTypography-colorTextSecondary {
   color: rgba(175, 175, 175, .5) !important;
+}
+.map-container {
+  margin-left: 60px;
+  margin-right: 60px;
+}
+@media only screen and (max-width: 768px) {
+  .map-container {
+    margin-left: 5px;
+    margin-right: 5px;
+  }
 }

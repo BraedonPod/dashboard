@@ -1,17 +1,18 @@
-import React from 'react'
-import { HorizontalBar, Line } from 'react-chartjs-2'
+import React from 'react';
+import { HorizontalBar, Line } from 'react-chartjs-2';
+import Grid from '@material-ui/core/Grid';
 
 const Chart = ({ mag }) => {
     const magData = [];
     mag.forEach((m) => {
         if(m<2){magData[0] = !magData[0] ? 1 : magData[0]+1}
         if(m>2 && m<3){magData[1] = !magData[1] ? 1 : magData[1]+1}
-        if(m>3 && m<4){magData[2] = !magData[2] ? 1 : magData[2]+1}
-        if(m>4 && m<5){magData[3] = !magData[3] ? 1 : magData[3]+1}
-        if(m>5 && m<6){magData[4] = !magData[4] ? 1 : magData[4]+1}
-        if(m>6 && m<7){magData[5] = !magData[5] ? 1 : magData[5]+1}
-        if(m>7 && m<8){magData[6] = !magData[6] ? 1 : magData[6]+1}
-        if(m>8){magData[7] = !magData[7] ? 1 : magData[7]+1}
+        if(m>=3 && m<4){magData[2] = !magData[2] ? 1 : magData[2]+1}
+        if(m>=4 && m<5){magData[3] = !magData[3] ? 1 : magData[3]+1}
+        if(m>=5 && m<6){magData[4] = !magData[4] ? 1 : magData[4]+1}
+        if(m>=6 && m<7){magData[5] = !magData[5] ? 1 : magData[5]+1}
+        if(m>=7 && m<8){magData[6] = !magData[6] ? 1 : magData[6]+1}
+        if(m>=8){magData[7] = !magData[7] ? 1 : magData[7]+1}
     })
 
     const horizontalBarChart = (
@@ -37,12 +38,11 @@ const Chart = ({ mag }) => {
                 }}
                 options={{
                     legend: { display: false },
-                    title: { display: true, text: "Magnitude" },
+                    title: { display: true, text: "Magnitude breakdown" },
                 }}
             />
         ) : null
     );
-
 
     const lineChart = (
         magData.length
@@ -60,15 +60,21 @@ const Chart = ({ mag }) => {
                 }}
                 options={{
                     legend: { display: false },
-                    title: { display: true, text: "Magnitude" },
+                    title: { display: true, text: "Magnitude breakdown" },
                 }}
             />
         ) : null
     );
     return (
         <>
-            {horizontalBarChart}
-            {lineChart}
+        <Grid container spacing={2}>
+            <Grid item xs={12} md={6}>
+                {horizontalBarChart}
+            </Grid>
+            <Grid item xs={12} md={6}>
+                {lineChart}
+            </Grid>
+        </Grid>
         </>
     )
 }

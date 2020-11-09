@@ -1,57 +1,45 @@
 import React, { Component } from 'react'
 import EarthquakeMap from './Map/QuakeMap';
-import { fetchDailyData, fetchMonthlyData, fetchData, fetchHourlyData, fetchWeeklyData } from '../api/earthquake';
+import { fetchDailyData, fetchData } from '../api/earthquake';
 import Statistics from './Statistics/Statistics';
 import Picker from './Map/Picker';
 import Cards from './Cards/Cards';
-import Grid from '@material-ui/core/Grid';
-
-
 
 export class Index extends Component {
     state = {
         dailyData: [],
-        hourlyData: [],
-        weeklyData: [],
-        monthlyData: [],
         mapSelector: "",
-        mapData: []
+        mapData: [],
+        mapPos: []
     }
-
-    //Clean this up!
+    
     async componentDidMount() {
         const fetchedDailyData = await fetchDailyData();
         this.setState({dailyData: fetchedDailyData });
-        const fetchedMontlyData = await fetchMonthlyData();
-        this.setState({monthlyData: fetchedMontlyData});
-
-        const fetchedHourlyData = await fetchHourlyData();
-        this.setState({hourlyData: fetchedHourlyData});
-        const fetchedWeeklyData = await fetchWeeklyData();
-        this.setState({weeklyData: fetchedWeeklyData});
     }
 
     handleMapChange = async (mapSelector) => {
         const fetchedData = await fetchData(mapSelector);
-        this.setState({mapData: fetchedData, mapSelector: mapSelector})
+        this.setState({mapData: fetchedData, mapSelector: mapSelector});
+        this.setState({mapPos: []});
     }
 
+    handleMapPos = (pos) => {
+        this.setState({mapPos: pos.split(",")});
+    }
+    
     render() {
-        const { dailyData, monthlyData, mapSelector, mapData, weeklyData, hourlyData } = this.state;
+        const { dailyData, mapSelector, mapData, mapPos } = this.state;
         return (
             <>
                 <div className="container">
                     <h1>Earthquake</h1>
-                    <Cards hourly={hourlyData.length} daily={dailyData.length} weekly={weeklyData.length} monthly={monthlyData.length} />
-                    <Grid container spacing={2}>
-                        <Grid item xs={12} md={8}>
-                            <Picker handleMapChange={this.handleMapChange} />
-                            <EarthquakeMap  mapData={mapData} mapSelector={mapSelector} />
-                        </Grid>
-                        <Grid item xs={12} md={4}>
-                            <Statistics data={mapData} />
-                        </Grid>
-                    </Grid>
+                    {!mapData.length ? <Cards data={dailyData} pos={this.handleMapPos} /> : <Cards data={mapData} display={mapSelector} pos={this.handleMapPos} /> }
+                    <div className="map-container">
+                        <Picker handleMapChange={this.handleMapChange} />
+                        <EarthquakeMap  mapData={mapData} mapSelector={mapSelector} pos={mapPos} />
+                    </div>
+                    {!mapData.length ? <Statistics data={dailyData} dataSource={mapSelector} /> : <Statistics data={mapData} dataSource={mapSelector} /> }
                 </div>
             </>
         )

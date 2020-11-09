@@ -58,7 +58,7 @@ function Index() {
                             <p className={classes.p}><Link href="#">React-Chartjs-2</Link> - Charts</p>
                             <p className={classes.p}><Link href="#">React-Router-Dom</Link> - App Navigation</p>
                             <p className={classes.p}><Link href="#">Axios</Link> - Get Requests</p>
-                            <p className={classes.p}><Link href="#">Material-io</Link> - Design</p>
+                            <p className={classes.p}><Link href="#">Material-ui</Link> - Design</p>
                             <p className={classes.p}><Link href="#">Leaflet</Link> - Map</p>
                             <p className={classes.p}><Link href="#">Moment</Link> - Date/Time format</p>
                         </Typography>

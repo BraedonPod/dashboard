@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import Cards from './Cards/Cards';
 import Chart from './Chart/Chart';
 import CountryPicker from './CountryPicker/CountryPicker';
-
+import ByCountry from './ByCountry/ByCountry';
 import { fetchData } from '../api/covid';
 
 export class Index extends Component {
@@ -30,6 +30,7 @@ export class Index extends Component {
                     <Cards data={data} />
                     <CountryPicker handleCountryChange={this.handleCountryChange} />
                     <Chart data={data} country={country} />
+                    <ByCountry />
                 </div>
             </>
         )

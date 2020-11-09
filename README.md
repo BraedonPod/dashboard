@@ -2,6 +2,14 @@
 
 This is a little project that display information about earthquakes and covid cases worldwide.
 
+# To Do
+- [ ] Add more earthquake information
+- [ ] Add list/ stacked graph of cases per country going from most to least covid
+- [ ] Finish Home page
+- [ ] Finish About page
+- [ ] Finish Contact page
+- [ ] Add Latlong coords to map
+
 ## Available Scripts
 
 In the project directory, you can run:
@@ -24,9 +32,3 @@ Your app is ready to be deployed!
 
 See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-# To Do
-- [ ] Add more earthquake information
-- [ ] Add list/ stacked graph of cases per country going from most to least
-- [ ] Finish Home page
-- [ ] Finish About page
-- [ ] Finish Contact page

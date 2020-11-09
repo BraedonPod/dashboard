@@ -1,18 +1,14 @@
 import React from 'react'
 import { CircleMarker, Popup  } from 'react-leaflet';
-
 import { makeStyles } from '@material-ui/core/styles';
-
 import Grid from '@material-ui/core/Grid';
 import CardHeader from '@material-ui/core/CardHeader';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
 import Typography from '@material-ui/core/Typography';
-
 import LocationOnIcon from '@material-ui/icons/LocationOn';
 import ScheduleIcon from '@material-ui/icons/Schedule';
 import KeyboardTabIcon from '@material-ui/icons/KeyboardTab';
-
 
 const useStyles = makeStyles({
     title: {
@@ -46,11 +42,11 @@ const useStyles = makeStyles({
 
 function Marker({quake, index}) {
     const classes = useStyles();
-
     let color = "";
-    if(quake.mag < 2){color = "blue";} 
+
+    if(quake.mag < 2){color = "green";} 
     else if (quake.mag > 4) {color = "red";} 
-    else {color = "green";}
+    else {color = "blue";}
 
     let placeArray = quake.place.split(",")
     let placeArraySplit  = placeArray[0].split("of");
@@ -70,7 +66,7 @@ function Marker({quake, index}) {
                                 <small>Richter Scale</small>
                             </Grid>
                             <Grid item xs={6}>
-                                <Typography variant="body2" component="p" className={classes.pAlign}>
+                                <Typography variant="body2" component="span" className={classes.pAlign}>
                                     <LocationOnIcon /><p>Location</p>
                                 </Typography>
                                 <Typography variant="body2" component="small">
@@ -78,7 +74,7 @@ function Marker({quake, index}) {
                                 </Typography>
                             </Grid>
                             <Grid item xs={6}>
-                                <Typography variant="body2" component="p" className={classes.pAlign}>
+                                <Typography variant="body2" component="span" className={classes.pAlign}>
                                     <KeyboardTabIcon /><p>Distance</p>
                                 </Typography>
                                 <Typography variant="body2" component="small">
@@ -86,7 +82,7 @@ function Marker({quake, index}) {
                                 </Typography>
                             </Grid>
                             <Grid item xs={8}>
-                                <Typography variant="body2" component="p" className={classes.pAlign}>
+                                <Typography variant="body2" component="span" className={classes.pAlign}>
                                     <ScheduleIcon /><p>Time</p>
                                 </Typography>
                                 <Typography variant="body2" component="small">

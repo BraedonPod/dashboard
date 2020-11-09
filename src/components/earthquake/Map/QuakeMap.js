@@ -5,10 +5,10 @@ import CircularProgress from '@material-ui/core/CircularProgress';
 import Marker from './Marker';
 import './leaflet.css';
 
-function QuakeMap({mapData, mapSelector}) {
+function QuakeMap({mapData, mapSelector, pos}) {
     const [earthquakes, setEarthquakes] = useState([]);
-    const position = [0, 0];
-
+    let position = [0, 0];
+    let zoom = 2;
     useEffect(() => {
         const fetchAPI = async () => {
             setEarthquakes(await fetchDailyData());
@@ -16,9 +16,15 @@ function QuakeMap({mapData, mapSelector}) {
         fetchAPI();
     }, []);
 
+    if(pos.length !== 0){zoom = 10; position = pos;}
+
+    const handleClick = (e) => {
+        const { lat, lng } = e.latlng;
+        console.log(lat, lng);
+    }
     const defaultMap = (        
         earthquakes.length ? (
-            <Map center={position} zoom={2} minZoom={2} worldCopyJump={true}>
+            <Map center={position} zoom={zoom} minZoom={2} worldCopyJump={true} onclick={handleClick}>
                 <TileLayer
                     //url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
                     url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
@@ -31,8 +37,8 @@ function QuakeMap({mapData, mapSelector}) {
     );
 
     const selectedMap = (
-        earthquakes.length ? (
-            <Map  center={position} zoom={2} minZoom={2} worldCopyJump={true}>
+        mapData.length ? (
+            <Map  center={position} zoom={zoom} minZoom={2} worldCopyJump={true} onclick={handleClick}>
                 <TileLayer
                     url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
                 />
