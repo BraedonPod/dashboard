@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
 import { Card, CardContent, Typography, Grid } from '@material-ui/core';
 import CountUp from 'react-countup';
 import cx from 'classnames';
 import { makeStyles } from '@material-ui/core/styles';
 import CircularProgress from '@material-ui/core/CircularProgress';
+import moment from 'moment';
 
 const useStyles = makeStyles((theme) => ({
     container: {
@@ -34,6 +35,7 @@ function Cards({data: { confirmed, recovered, deaths, lastUpdate }}) {
     if(!confirmed) {
         return <CircularProgress />;
     }
+
     return (
         <div className={classes.container}>
             <Grid container spacing={3} justify="center">
@@ -43,7 +45,7 @@ function Cards({data: { confirmed, recovered, deaths, lastUpdate }}) {
                         <Typography variant="h5">
                             <CountUp start={0} end={ confirmed.value } duration={2.5} separator="," />
                         </Typography>
-                        <Typography color="textSecondary" className={classes.pos}>{new Date(lastUpdate).toDateString()}</Typography>
+                        <Typography color="textSecondary" className={classes.pos}>{moment(lastUpdate).format('MMMM Do YYYY, h:mm:ss a')}</Typography>
                         <Typography variant="body2">Number of active case of COVID-19</Typography>
                     </CardContent>
                 </Grid>
@@ -52,10 +54,12 @@ function Cards({data: { confirmed, recovered, deaths, lastUpdate }}) {
                         <Typography color="textSecondary" className={classes.pos} gutterBottom>Recovered</Typography>
                         <Typography variant="h5">
                             <CountUp start={0} end={ recovered.value } duration={2.5} separator="," /> 
+                        </Typography>
+                        <Typography color="textSecondary" className={classes.pos}>{moment(lastUpdate).format('MMMM Do YYYY, h:mm:ss a')}</Typography>
+                        <Typography variant="body2">
+                            Number of recovered cases of COVID-19 - 
                             <small> {(recovered.value / confirmed.value * 100).toFixed(2) + "%"}</small>
                         </Typography>
-                        <Typography color="textSecondary" className={classes.pos}>{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2">Number of recovered cases of COVID-19</Typography>
                     </CardContent>
                 </Grid>
                 <Grid item component={Card} xs={12} md={3} className={cx(classes.card, classes.deaths)}>
@@ -63,10 +67,12 @@ function Cards({data: { confirmed, recovered, deaths, lastUpdate }}) {
                         <Typography color="textSecondary" className={classes.pos} gutterBottom>Deaths</Typography>
                         <Typography variant="h5">
                             <CountUp start={0} end={ deaths.value } duration={2.5} separator="," /> 
+                        </Typography>
+                        <Typography color="textSecondary" className={classes.pos}>{moment(lastUpdate).format('MMMM Do YYYY, h:mm:ss a')}</Typography>
+                        <Typography variant="body2">
+                            Number of deaths caused by COVID-19 - 
                             <small> {(deaths.value / confirmed.value * 100).toFixed(2) + "%"}</small>
                         </Typography>
-                        <Typography color="textSecondary" className={classes.pos}>{new Date(lastUpdate).toDateString()}</Typography>
-                        <Typography variant="body2">Number of deaths caused by COVID-19</Typography>
                     </CardContent>
                 </Grid>
             </Grid>

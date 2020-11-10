@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import Card from '@material-ui/core/Card';
 import CardContent from '@material-ui/core/CardContent';
@@ -51,6 +51,7 @@ function Index() {
                             <p className={classes.p}><Link href="https://earthquake.usgs.gov/earthquakes/feed/v1.0/geojson.php">Earthquake USGS</Link> - Earthquake API</p>
                             <p className={classes.p}><Link href="https://covid19.mathdro.id/api">mathdro</Link> - Covid API Total/Per Country</p>
                             <p className={classes.p}><Link href="https://api.covidtracking.com/v1/us/daily.json">CovidTracking</Link> - Covid API Daily US Cases</p>
+                            <p className={classes.p}><Link href="#">Covid API Scrapper</Link> - Covid API Scrapper</p>
 
                             <h3>Libraries & Resources</h3>
                             <p className={classes.p}><Link href="#">React.js</Link> - Frontend Framework</p>

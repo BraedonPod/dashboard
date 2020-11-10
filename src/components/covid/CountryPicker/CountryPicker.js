@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import { NativeSelect, FormControl } from '@material-ui/core';
 import { fetchCountries } from '../../api/covid';
 import { makeStyles } from '@material-ui/core/styles';

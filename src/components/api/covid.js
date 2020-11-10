@@ -36,13 +36,3 @@ export const fetchCountries = async () => {
         
     }
 }
-
-export const fetchSummary = async () => {
-  try {
-    const { data } = await axios.get('https://api.covid19api.com/summary');
-
-    return data.Countries.map(({ Country, CountryCode, Date, TotalConfirmed, TotalDeaths, TotalRecovered, Slug }) =>({ Country, CountryCode, Date, TotalConfirmed, TotalDeaths, TotalRecovered, Slug }));
-  } catch (error) {
-    return error;
-  }
-}

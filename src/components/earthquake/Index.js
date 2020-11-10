@@ -1,4 +1,4 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import EarthquakeMap from './Map/QuakeMap';
 import { fetchDailyData, fetchData } from '../api/earthquake';
 import Statistics from './Statistics/Statistics';
@@ -33,7 +33,7 @@ export class Index extends Component {
         return (
             <>
                 <div className="container">
-                    <h1>Earthquake</h1>
+                <div className="wrapper"><h1>Earthquake</h1></div>
                     {!mapData.length ? <Cards data={dailyData} pos={this.handleMapPos} /> : <Cards data={mapData} display={mapSelector} pos={this.handleMapPos} /> }
                     <div className="map-container">
                         <Picker handleMapChange={this.handleMapChange} />

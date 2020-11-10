@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import { CircleMarker, Popup  } from 'react-leaflet';
 import { makeStyles } from '@material-ui/core/styles';
 import Grid from '@material-ui/core/Grid';

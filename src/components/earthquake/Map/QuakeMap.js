@@ -3,7 +3,7 @@ import { Map, TileLayer } from 'react-leaflet';
 import { fetchDailyData } from '../../api/earthquake';
 import CircularProgress from '@material-ui/core/CircularProgress';
 import Marker from './Marker';
-import './leaflet.css';
+import '../../../leaflet.css';
 
 function QuakeMap({mapData, mapSelector, pos}) {
     const [earthquakes, setEarthquakes] = useState([]);
@@ -27,7 +27,7 @@ function QuakeMap({mapData, mapSelector, pos}) {
             <Map center={position} zoom={zoom} minZoom={2} worldCopyJump={true} onclick={handleClick}>
                 <TileLayer
                     //url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
-                    url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+                    url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
                 />
                 {earthquakes.map((quake, index) => (
                     <Marker key={index} quake={quake} index={index} />
@@ -40,7 +40,7 @@ function QuakeMap({mapData, mapSelector, pos}) {
         mapData.length ? (
             <Map  center={position} zoom={zoom} minZoom={2} worldCopyJump={true} onclick={handleClick}>
                 <TileLayer
-                    url="https://tiles.stadiamaps.com/tiles/alidade_smooth_dark/{z}/{x}/{y}{r}.png"
+                    url="https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png"
                 />
                 {mapData.map((quake, index) => (
                     <Marker key={index} quake={quake} index={index} />

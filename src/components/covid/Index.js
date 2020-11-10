@@ -1,8 +1,8 @@
-import React, { Component } from 'react'
+import React, { Component } from 'react';
 import Cards from './Cards/Cards';
 import Chart from './Chart/Chart';
 import CountryPicker from './CountryPicker/CountryPicker';
-import ByCountry from './ByCountry/ByCountry';
+import Map from './Map/CovidMap';
 import { fetchData } from '../api/covid';
 
 export class Index extends Component {
@@ -26,11 +26,12 @@ export class Index extends Component {
         return (
             <>
                 <div className="container">
-                    <h1>Covid</h1>
+                <div className="wrapper"><h1>Covid</h1></div>
                     <Cards data={data} />
                     <CountryPicker handleCountryChange={this.handleCountryChange} />
                     <Chart data={data} country={country} />
-                    <ByCountry />
+                    <div className="wrapper"><h1>Covid Map</h1></div>
+                    <Map />
                 </div>
             </>
         )

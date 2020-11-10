@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect } from 'react';
 import { fetchDailyData } from '../../api/covid';
 import { Line, Bar } from 'react-chartjs-2';
 import { makeStyles } from '@material-ui/core/styles';
