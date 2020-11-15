@@ -1,11 +1,11 @@
 {
   "Global": {
-    "NewConfirmed": 573696,
-    "TotalConfirmed": 50404828,
-    "NewDeaths": 5741,
-    "TotalDeaths": 1256103,
-    "NewRecovered": 253207,
-    "TotalRecovered": 33025966
+    "NewConfirmed": 495667,
+    "TotalConfirmed": 50905959,
+    "NewDeaths": 6705,
+    "TotalDeaths": 1263009,
+    "NewRecovered": 256622,
+    "TotalRecovered": 33282588
   },
   "Countries": [
     {
@@ -14,13 +14,13 @@
       "Slug": "afghanistan",
       "Lat": "33.93911",
       "Long": "67.709953",
-      "NewConfirmed": 59,
-      "TotalConfirmed": 42092,
-      "NewDeaths": 2,
-      "TotalDeaths": 1558,
-      "NewRecovered": 12,
-      "TotalRecovered": 34458,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 205,
+      "TotalConfirmed": 42297,
+      "NewDeaths": 16,
+      "TotalDeaths": 1574,
+      "NewRecovered": 263,
+      "TotalRecovered": 34721,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Albania",
@@ -28,13 +28,13 @@
       "Slug": "albania",
       "Lat": "41.1533",
       "Long": "20.1683",
-      "NewConfirmed": 501,
-      "TotalConfirmed": 24206,
-      "NewDeaths": 2,
-      "TotalDeaths": 559,
-      "NewRecovered": 90,
-      "TotalRecovered": 12092,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 525,
+      "TotalConfirmed": 24731,
+      "NewDeaths": 12,
+      "TotalDeaths": 571,
+      "NewRecovered": 111,
+      "TotalRecovered": 12203,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Algeria",
@@ -42,13 +42,13 @@
       "Slug": "algeria",
       "Lat": "28.0339",
       "Long": "1.6596",
-      "NewConfirmed": 670,
-      "TotalConfirmed": 62051,
-      "NewDeaths": 12,
-      "TotalDeaths": 2048,
-      "NewRecovered": 254,
-      "TotalRecovered": 42037,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 642,
+      "TotalConfirmed": 62693,
+      "NewDeaths": 14,
+      "TotalDeaths": 2062,
+      "NewRecovered": 288,
+      "TotalRecovered": 42325,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Andorra",
@@ -56,13 +56,13 @@
       "Slug": "andorra",
       "Lat": "42.5063",
       "Long": "1.5218",
-      "NewConfirmed": 64,
-      "TotalConfirmed": 5383,
+      "NewConfirmed": 54,
+      "TotalConfirmed": 5437,
       "NewDeaths": 0,
       "TotalDeaths": 75,
-      "NewRecovered": 205,
-      "TotalRecovered": 4248,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 84,
+      "TotalRecovered": 4332,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Angola",
@@ -70,13 +70,13 @@
       "Slug": "angola",
       "Lat": "-11.2027",
       "Long": "17.8739",
-      "NewConfirmed": 98,
-      "TotalConfirmed": 12433,
-      "NewDeaths": 4,
-      "TotalDeaths": 307,
-      "NewRecovered": 252,
-      "TotalRecovered": 5899,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 247,
+      "TotalConfirmed": 12680,
+      "NewDeaths": 1,
+      "TotalDeaths": 308,
+      "NewRecovered": 28,
+      "TotalRecovered": 5927,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Antigua and Barbuda",
@@ -90,7 +90,7 @@
       "TotalDeaths": 3,
       "NewRecovered": 0,
       "TotalRecovered": 122,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Argentina",
@@ -98,13 +98,13 @@
       "Slug": "argentina",
       "Lat": "-38.4161",
       "Long": "-63.6167",
-      "NewConfirmed": 5331,
-      "TotalConfirmed": 1242182,
-      "NewDeaths": 212,
-      "TotalDeaths": 33560,
-      "NewRecovered": 9598,
-      "TotalRecovered": 1062911,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 8317,
+      "TotalConfirmed": 1250499,
+      "NewDeaths": 347,
+      "TotalDeaths": 33907,
+      "NewRecovered": 10666,
+      "TotalRecovered": 1073577,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Armenia",
@@ -112,13 +112,13 @@
       "Slug": "armenia",
       "Lat": "40.0691",
       "Long": "45.0382",
-      "NewConfirmed": 2175,
-      "TotalConfirmed": 106424,
-      "NewDeaths": 26,
-      "TotalDeaths": 1559,
-      "NewRecovered": 921,
-      "TotalRecovered": 64179,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1042,
+      "TotalConfirmed": 107466,
+      "NewDeaths": 21,
+      "TotalDeaths": 1580,
+      "NewRecovered": 731,
+      "TotalRecovered": 64910,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Australia",
@@ -126,13 +126,13 @@
       "Slug": "australia",
       "Lat": "-35.4735",
       "Long": "149.0124",
-      "NewConfirmed": 7,
-      "TotalConfirmed": 27665,
+      "NewConfirmed": 4,
+      "TotalConfirmed": 27669,
       "NewDeaths": 0,
       "TotalDeaths": 907,
-      "NewRecovered": 0,
-      "TotalRecovered": 25451,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 3,
+      "TotalRecovered": 25454,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Austria",
@@ -140,13 +140,13 @@
       "Slug": "austria",
       "Lat": "47.5162",
       "Long": "14.5501",
-      "NewConfirmed": 5933,
-      "TotalConfirmed": 153153,
-      "NewDeaths": 34,
-      "TotalDeaths": 1411,
-      "NewRecovered": 3446,
-      "TotalRecovered": 91719,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 5593,
+      "TotalConfirmed": 158746,
+      "NewDeaths": 43,
+      "TotalDeaths": 1454,
+      "NewRecovered": 2908,
+      "TotalRecovered": 94627,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Azerbaijan",
@@ -154,13 +154,13 @@
       "Slug": "azerbaijan",
       "Lat": "40.1431",
       "Long": "47.5769",
-      "NewConfirmed": 1663,
-      "TotalConfirmed": 65411,
-      "NewDeaths": 16,
-      "TotalDeaths": 840,
-      "NewRecovered": 859,
-      "TotalRecovered": 48908,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 635,
+      "TotalConfirmed": 66046,
+      "NewDeaths": 12,
+      "TotalDeaths": 852,
+      "NewRecovered": 503,
+      "TotalRecovered": 49411,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Bahamas",
@@ -168,13 +168,13 @@
       "Slug": "bahamas",
       "Lat": "25.025885",
       "Long": "-78.035889",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 6947,
-      "NewDeaths": 0,
-      "TotalDeaths": 152,
-      "NewRecovered": 0,
-      "TotalRecovered": 4942,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 17,
+      "TotalConfirmed": 6964,
+      "NewDeaths": 2,
+      "TotalDeaths": 154,
+      "NewRecovered": 1,
+      "TotalRecovered": 4943,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Bahrain",
@@ -182,13 +182,13 @@
       "Slug": "bahrain",
       "Lat": "26.0275",
       "Long": "50.55",
-      "NewConfirmed": 192,
-      "TotalConfirmed": 83456,
+      "NewConfirmed": 176,
+      "TotalConfirmed": 83632,
       "NewDeaths": 0,
       "TotalDeaths": 329,
-      "NewRecovered": 237,
-      "TotalRecovered": 81000,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 225,
+      "TotalRecovered": 81225,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Bangladesh",
@@ -196,13 +196,13 @@
       "Slug": "bangladesh",
       "Lat": "23.685",
       "Long": "90.3563",
-      "NewConfirmed": 1474,
-      "TotalConfirmed": 420238,
-      "NewDeaths": 18,
-      "TotalDeaths": 6067,
-      "NewRecovered": 1577,
-      "TotalRecovered": 338145,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1683,
+      "TotalConfirmed": 421921,
+      "NewDeaths": 25,
+      "TotalDeaths": 6092,
+      "NewRecovered": 1623,
+      "TotalRecovered": 339768,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Barbados",
@@ -210,13 +210,13 @@
       "Slug": "barbados",
       "Lat": "13.1939",
       "Long": "-59.5432",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 242,
+      "NewConfirmed": 1,
+      "TotalConfirmed": 243,
       "NewDeaths": 0,
       "TotalDeaths": 7,
-      "NewRecovered": 0,
-      "TotalRecovered": 228,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 3,
+      "TotalRecovered": 231,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Belarus",
@@ -224,13 +224,13 @@
       "Slug": "belarus",
       "Lat": "53.7098",
       "Long": "27.9534",
-      "NewConfirmed": 996,
-      "TotalConfirmed": 106279,
-      "NewDeaths": 3,
-      "TotalDeaths": 1007,
-      "NewRecovered": 940,
-      "TotalRecovered": 90998,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 983,
+      "TotalConfirmed": 107262,
+      "NewDeaths": 4,
+      "TotalDeaths": 1011,
+      "NewRecovered": 355,
+      "TotalRecovered": 91353,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Belgium",
@@ -238,13 +238,13 @@
       "Slug": "belgium",
       "Lat": "50.8333",
       "Long": "4.469936",
-      "NewConfirmed": 6621,
-      "TotalConfirmed": 500789,
-      "NewDeaths": 148,
-      "TotalDeaths": 13055,
-      "NewRecovered": 294,
-      "TotalRecovered": 29651,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 2393,
+      "TotalConfirmed": 503182,
+      "NewDeaths": 161,
+      "TotalDeaths": 13216,
+      "NewRecovered": 145,
+      "TotalRecovered": 29796,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Belize",
@@ -252,13 +252,13 @@
       "Slug": "belize",
       "Lat": "17.1899",
       "Long": "-88.4976",
-      "NewConfirmed": 100,
-      "TotalConfirmed": 4176,
-      "NewDeaths": 2,
-      "TotalDeaths": 70,
-      "NewRecovered": 11,
-      "TotalRecovered": 2364,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 54,
+      "TotalConfirmed": 4230,
+      "NewDeaths": 1,
+      "TotalDeaths": 71,
+      "NewRecovered": 22,
+      "TotalRecovered": 2386,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Benin",
@@ -266,13 +266,13 @@
       "Slug": "benin",
       "Lat": "9.3077",
       "Long": "2.3158",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 2745,
+      "NewConfirmed": 36,
+      "TotalConfirmed": 2781,
       "NewDeaths": 0,
       "TotalDeaths": 43,
-      "NewRecovered": 0,
-      "TotalRecovered": 2466,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 49,
+      "TotalRecovered": 2515,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Bhutan",
@@ -280,13 +280,13 @@
       "Slug": "bhutan",
       "Lat": "27.5142",
       "Long": "90.4336",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 359,
+      "NewConfirmed": 5,
+      "TotalConfirmed": 364,
       "NewDeaths": 0,
       "TotalDeaths": 0,
-      "NewRecovered": 0,
-      "TotalRecovered": 338,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 4,
+      "TotalRecovered": 342,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Bolivia",
@@ -294,13 +294,13 @@
       "Slug": "bolivia",
       "Lat": "-16.2902",
       "Long": "-63.5887",
-      "NewConfirmed": 48,
-      "TotalConfirmed": 142475,
-      "NewDeaths": 5,
-      "TotalDeaths": 8795,
-      "NewRecovered": 241,
-      "TotalRecovered": 114466,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 86,
+      "TotalConfirmed": 142561,
+      "NewDeaths": 7,
+      "TotalDeaths": 8802,
+      "NewRecovered": 415,
+      "TotalRecovered": 114881,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Bosnia and Herzegovina",
@@ -308,13 +308,13 @@
       "Slug": "bosnia-and-herzegovina",
       "Lat": "43.9159",
       "Long": "17.6791",
-      "NewConfirmed": 1211,
-      "TotalConfirmed": 62423,
-      "NewDeaths": 20,
-      "TotalDeaths": 1510,
-      "NewRecovered": 285,
-      "TotalRecovered": 30939,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 996,
+      "TotalConfirmed": 63419,
+      "NewDeaths": 73,
+      "TotalDeaths": 1583,
+      "NewRecovered": 283,
+      "TotalRecovered": 31222,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Botswana",
@@ -328,7 +328,7 @@
       "TotalDeaths": 27,
       "NewRecovered": 0,
       "TotalRecovered": 5534,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Brazil",
@@ -336,13 +336,13 @@
       "Slug": "brazil",
       "Lat": "-14.235",
       "Long": "-51.9253",
-      "NewConfirmed": 10554,
-      "TotalConfirmed": 5664115,
-      "NewDeaths": 128,
-      "TotalDeaths": 162397,
-      "NewRecovered": 8531,
-      "TotalRecovered": 5147172,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 10917,
+      "TotalConfirmed": 5675032,
+      "NewDeaths": 231,
+      "TotalDeaths": 162628,
+      "NewRecovered": 16054,
+      "TotalRecovered": 5163226,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Bulgaria",
@@ -350,13 +350,13 @@
       "Slug": "bulgaria",
       "Lat": "42.7339",
       "Long": "25.4858",
-      "NewConfirmed": 675,
-      "TotalConfirmed": 75160,
-      "NewDeaths": 33,
-      "TotalDeaths": 1665,
-      "NewRecovered": 603,
-      "TotalRecovered": 24408,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 3816,
+      "TotalConfirmed": 78976,
+      "NewDeaths": 106,
+      "TotalDeaths": 1771,
+      "NewRecovered": 875,
+      "TotalRecovered": 25283,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Burkina Faso",
@@ -364,13 +364,13 @@
       "Slug": "burkina-faso",
       "Lat": "12.2383",
       "Long": "-1.5616",
-      "NewConfirmed": 4,
-      "TotalConfirmed": 2569,
+      "NewConfirmed": 12,
+      "TotalConfirmed": 2581,
       "NewDeaths": 0,
       "TotalDeaths": 67,
-      "NewRecovered": 11,
-      "TotalRecovered": 2381,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 1,
+      "TotalRecovered": 2382,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Burundi",
@@ -378,13 +378,13 @@
       "Slug": "burundi",
       "Lat": "-3.3731",
       "Long": "29.9189",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 612,
+      "NewConfirmed": 2,
+      "TotalConfirmed": 614,
       "NewDeaths": 0,
       "TotalDeaths": 1,
-      "NewRecovered": 38,
+      "NewRecovered": 0,
       "TotalRecovered": 549,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Cambodia",
@@ -392,13 +392,13 @@
       "Slug": "cambodia",
       "Lat": "11.55",
       "Long": "104.9167",
-      "NewConfirmed": 2,
-      "TotalConfirmed": 297,
+      "NewConfirmed": 3,
+      "TotalConfirmed": 300,
       "NewDeaths": 0,
       "TotalDeaths": 0,
       "NewRecovered": 0,
       "TotalRecovered": 288,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Cameroon",
@@ -406,13 +406,13 @@
       "Slug": "cameroon",
       "Lat": "3.848",
       "Long": "11.5021",
-      "NewConfirmed": 79,
+      "NewConfirmed": 0,
       "TotalConfirmed": 22421,
-      "NewDeaths": 4,
+      "NewDeaths": 0,
       "TotalDeaths": 433,
-      "NewRecovered": 359,
+      "NewRecovered": 0,
       "TotalRecovered": 21510,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Canada",
@@ -420,13 +420,13 @@
       "Slug": "canada",
       "Lat": "53.9333",
       "Long": "-116.5765",
-      "NewConfirmed": 3943,
-      "TotalConfirmed": 267150,
-      "NewDeaths": 28,
-      "TotalDeaths": 10574,
-      "NewRecovered": 1941,
-      "TotalRecovered": 218279,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 4871,
+      "TotalConfirmed": 272021,
+      "NewDeaths": 45,
+      "TotalDeaths": 10619,
+      "NewRecovered": 3479,
+      "TotalRecovered": 221758,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Central African Republic",
@@ -434,13 +434,13 @@
       "Slug": "central-african-republic",
       "Lat": "6.6111",
       "Long": "20.9394",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 4879,
+      "NewConfirmed": 1,
+      "TotalConfirmed": 4880,
       "NewDeaths": 0,
       "TotalDeaths": 62,
       "NewRecovered": 0,
       "TotalRecovered": 1924,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Chad",
@@ -449,12 +449,12 @@
       "Lat": "15.4542",
       "Long": "18.7322",
       "NewConfirmed": 4,
-      "TotalConfirmed": 1547,
+      "TotalConfirmed": 1551,
       "NewDeaths": 0,
       "TotalDeaths": 99,
-      "NewRecovered": 17,
-      "TotalRecovered": 1382,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 12,
+      "TotalRecovered": 1394,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Chile",
@@ -462,13 +462,13 @@
       "Slug": "chile",
       "Lat": "-35.6751",
       "Long": "-71.543",
-      "NewConfirmed": 1581,
-      "TotalConfirmed": 521558,
-      "NewDeaths": 44,
-      "TotalDeaths": 14543,
-      "NewRecovered": 1559,
-      "TotalRecovered": 497411,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1321,
+      "TotalConfirmed": 522879,
+      "NewDeaths": 45,
+      "TotalDeaths": 14588,
+      "NewRecovered": 1493,
+      "TotalRecovered": 498904,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "China",
@@ -476,13 +476,13 @@
       "Slug": "china",
       "Lat": "31.8257",
       "Long": "117.2264",
-      "NewConfirmed": 43,
-      "TotalConfirmed": 91665,
+      "NewConfirmed": 28,
+      "TotalConfirmed": 91693,
       "NewDeaths": 0,
       "TotalDeaths": 4741,
-      "NewRecovered": 25,
-      "TotalRecovered": 86369,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 24,
+      "TotalRecovered": 86393,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Colombia",
@@ -490,13 +490,13 @@
       "Slug": "colombia",
       "Lat": "4.5709",
       "Long": "-74.2973",
-      "NewConfirmed": 7440,
-      "TotalConfirmed": 1143887,
-      "NewDeaths": 196,
-      "TotalDeaths": 32791,
-      "NewRecovered": 9000,
-      "TotalRecovered": 1038082,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 5177,
+      "TotalConfirmed": 1149064,
+      "NewDeaths": 183,
+      "TotalDeaths": 32974,
+      "NewRecovered": 8935,
+      "TotalRecovered": 1047017,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Comoros",
@@ -510,7 +510,7 @@
       "TotalDeaths": 7,
       "NewRecovered": 0,
       "TotalRecovered": 532,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Congo (Brazzaville)",
@@ -524,7 +524,7 @@
       "TotalDeaths": 92,
       "NewRecovered": 0,
       "TotalRecovered": 3887,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Congo (Kinshasa)",
@@ -532,13 +532,13 @@
       "Slug": "congo-kinshasa",
       "Lat": "-4.0383",
       "Long": "21.7587",
-      "NewConfirmed": 41,
-      "TotalConfirmed": 11591,
+      "NewConfirmed": 17,
+      "TotalConfirmed": 11608,
       "NewDeaths": 0,
       "TotalDeaths": 316,
-      "NewRecovered": 0,
-      "TotalRecovered": 10838,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 55,
+      "TotalRecovered": 10893,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Costa Rica",
@@ -546,13 +546,13 @@
       "Slug": "costa-rica",
       "Lat": "9.7489",
       "Long": "-83.7534",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 116363,
-      "NewDeaths": 0,
-      "TotalDeaths": 1464,
-      "NewRecovered": 0,
-      "TotalRecovered": 71119,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1224,
+      "TotalConfirmed": 117587,
+      "NewDeaths": 27,
+      "TotalDeaths": 1491,
+      "NewRecovered": 1130,
+      "TotalRecovered": 72249,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Croatia",
@@ -560,13 +560,13 @@
       "Slug": "croatia",
       "Lat": "45.1",
       "Long": "15.2",
-      "NewConfirmed": 2543,
-      "TotalConfirmed": 67247,
-      "NewDeaths": 42,
-      "TotalDeaths": 794,
-      "NewRecovered": 2365,
-      "TotalRecovered": 50775,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1529,
+      "TotalConfirmed": 68776,
+      "NewDeaths": 38,
+      "TotalDeaths": 832,
+      "NewRecovered": 2227,
+      "TotalRecovered": 53002,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Cuba",
@@ -574,13 +574,13 @@
       "Slug": "cuba",
       "Lat": "21.521757",
       "Long": "-77.781167",
-      "NewConfirmed": 30,
-      "TotalConfirmed": 7297,
+      "NewConfirmed": 52,
+      "TotalConfirmed": 7349,
       "NewDeaths": 0,
       "TotalDeaths": 130,
-      "NewRecovered": 98,
-      "TotalRecovered": 6680,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 41,
+      "TotalRecovered": 6721,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Cyprus",
@@ -588,13 +588,13 @@
       "Slug": "cyprus",
       "Lat": "35.1264",
       "Long": "33.4299",
-      "NewConfirmed": 116,
-      "TotalConfirmed": 5987,
+      "NewConfirmed": 111,
+      "TotalConfirmed": 6098,
       "NewDeaths": 0,
-      "TotalDeaths": 35,
+      "TotalDeaths": 28,
       "NewRecovered": 0,
       "TotalRecovered": 1882,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Czech Republic",
@@ -602,13 +602,13 @@
       "Slug": "czech-republic",
       "Lat": "49.8175",
       "Long": "15.473",
-      "NewConfirmed": 3608,
-      "TotalConfirmed": 414828,
-      "NewDeaths": 177,
-      "TotalDeaths": 4858,
-      "NewRecovered": 5372,
-      "TotalRecovered": 243129,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 2353,
+      "TotalConfirmed": 417181,
+      "NewDeaths": 170,
+      "TotalDeaths": 5028,
+      "NewRecovered": 876,
+      "TotalRecovered": 244005,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Côte d'Ivoire",
@@ -616,27 +616,27 @@
       "Slug": "cote-divoire",
       "Lat": "7.54",
       "Long": "-5.5471",
-      "NewConfirmed": 19,
-      "TotalConfirmed": 20832,
+      "NewConfirmed": 3,
+      "TotalConfirmed": 20835,
       "NewDeaths": 0,
       "TotalDeaths": 126,
-      "NewRecovered": 19,
-      "TotalRecovered": 20508,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 8,
+      "TotalRecovered": 20516,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Denmark",
       "ISO2": "DK",
       "Slug": "denmark",
-      "Lat": "61.8926",
-      "Long": "-6.9118",
-      "NewConfirmed": 893,
-      "TotalConfirmed": 55635,
-      "NewDeaths": 3,
-      "TotalDeaths": 743,
-      "NewRecovered": 815,
-      "TotalRecovered": 40815,
-      "Date": "2020-11-10T01:38:44Z"
+      "Lat": "56.2639",
+      "Long": "9.5018",
+      "NewConfirmed": 771,
+      "TotalConfirmed": 56406,
+      "NewDeaths": 4,
+      "TotalDeaths": 747,
+      "NewRecovered": 927,
+      "TotalRecovered": 41742,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Djibouti",
@@ -644,13 +644,13 @@
       "Slug": "djibouti",
       "Lat": "11.8251",
       "Long": "42.5903",
-      "NewConfirmed": 3,
-      "TotalConfirmed": 5608,
+      "NewConfirmed": 19,
+      "TotalConfirmed": 5627,
       "NewDeaths": 0,
       "TotalDeaths": 61,
-      "NewRecovered": 1,
-      "TotalRecovered": 5486,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 6,
+      "TotalRecovered": 5492,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Dominica",
@@ -664,7 +664,7 @@
       "TotalDeaths": 0,
       "NewRecovered": 0,
       "TotalRecovered": 35,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Dominican Republic",
@@ -672,13 +672,13 @@
       "Slug": "dominican-republic",
       "Lat": "18.7357",
       "Long": "-70.1627",
-      "NewConfirmed": 537,
-      "TotalConfirmed": 130182,
+      "NewConfirmed": 421,
+      "TotalConfirmed": 130603,
       "NewDeaths": 2,
-      "TotalDeaths": 2265,
-      "NewRecovered": 441,
-      "TotalRecovered": 108021,
-      "Date": "2020-11-10T01:38:44Z"
+      "TotalDeaths": 2267,
+      "NewRecovered": 362,
+      "TotalRecovered": 108383,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Ecuador",
@@ -686,13 +686,13 @@
       "Slug": "ecuador",
       "Lat": "-1.8312",
       "Long": "-78.1834",
-      "NewConfirmed": 1421,
-      "TotalConfirmed": 174907,
-      "NewDeaths": 15,
-      "TotalDeaths": 12830,
-      "NewRecovered": 5908,
+      "NewConfirmed": 362,
+      "TotalConfirmed": 175269,
+      "NewDeaths": 9,
+      "TotalDeaths": 12839,
+      "NewRecovered": 0,
       "TotalRecovered": 154956,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Egypt",
@@ -700,13 +700,13 @@
       "Slug": "egypt",
       "Lat": "26.820553",
       "Long": "30.802498",
-      "NewConfirmed": 239,
-      "TotalConfirmed": 109201,
-      "NewDeaths": 13,
-      "TotalDeaths": 6368,
-      "NewRecovered": 103,
-      "TotalRecovered": 100342,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 221,
+      "TotalConfirmed": 109422,
+      "NewDeaths": 12,
+      "TotalDeaths": 6380,
+      "NewRecovered": 97,
+      "TotalRecovered": 100439,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "El Salvador",
@@ -717,10 +717,10 @@
       "NewConfirmed": 0,
       "TotalConfirmed": 35145,
       "NewDeaths": 4,
-      "TotalDeaths": 1010,
+      "TotalDeaths": 1014,
       "NewRecovered": 0,
       "TotalRecovered": 31172,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Equatorial Guinea",
@@ -734,7 +734,7 @@
       "TotalDeaths": 85,
       "NewRecovered": 0,
       "TotalRecovered": 4968,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Eritrea",
@@ -748,7 +748,7 @@
       "TotalDeaths": 0,
       "NewRecovered": 0,
       "TotalRecovered": 438,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Estonia",
@@ -756,13 +756,13 @@
       "Slug": "estonia",
       "Lat": "58.5953",
       "Long": "25.0136",
-      "NewConfirmed": 192,
-      "TotalConfirmed": 6125,
-      "NewDeaths": 2,
-      "TotalDeaths": 75,
-      "NewRecovered": 9,
-      "TotalRecovered": 4193,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 125,
+      "TotalConfirmed": 6250,
+      "NewDeaths": 1,
+      "TotalDeaths": 76,
+      "NewRecovered": 12,
+      "TotalRecovered": 4205,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Ethiopia",
@@ -770,13 +770,13 @@
       "Slug": "ethiopia",
       "Lat": "9.145",
       "Long": "40.4897",
-      "NewConfirmed": 474,
-      "TotalConfirmed": 99675,
-      "NewDeaths": 5,
-      "TotalDeaths": 1523,
-      "NewRecovered": 818,
-      "TotalRecovered": 59766,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 307,
+      "TotalConfirmed": 99982,
+      "NewDeaths": 7,
+      "TotalDeaths": 1530,
+      "NewRecovered": 944,
+      "TotalRecovered": 60710,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Fiji",
@@ -790,7 +790,7 @@
       "TotalDeaths": 2,
       "NewRecovered": 0,
       "TotalRecovered": 31,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Finland",
@@ -798,13 +798,13 @@
       "Slug": "finland",
       "Lat": "61.92411",
       "Long": "25.748151",
-      "NewConfirmed": 412,
-      "TotalConfirmed": 17797,
-      "NewDeaths": 0,
-      "TotalDeaths": 362,
+      "NewConfirmed": 90,
+      "TotalConfirmed": 17887,
+      "NewDeaths": 1,
+      "TotalDeaths": 363,
       "NewRecovered": 0,
       "TotalRecovered": 12700,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "France",
@@ -812,13 +812,13 @@
       "Slug": "france",
       "Lat": "3.9339",
       "Long": "-53.1258",
-      "NewConfirmed": 125414,
-      "TotalConfirmed": 1835187,
-      "NewDeaths": 270,
-      "TotalDeaths": 40490,
-      "NewRecovered": 676,
-      "TotalRecovered": 134095,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 21105,
+      "TotalConfirmed": 1856292,
+      "NewDeaths": 559,
+      "TotalDeaths": 41049,
+      "NewRecovered": 1121,
+      "TotalRecovered": 135216,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Gabon",
@@ -826,13 +826,13 @@
       "Slug": "gabon",
       "Lat": "-0.8037",
       "Long": "11.6094",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 9022,
-      "NewDeaths": 0,
-      "TotalDeaths": 55,
-      "NewRecovered": 0,
-      "TotalRecovered": 8878,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 7,
+      "TotalConfirmed": 9029,
+      "NewDeaths": 2,
+      "TotalDeaths": 57,
+      "NewRecovered": 21,
+      "TotalRecovered": 8899,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Gambia",
@@ -840,13 +840,13 @@
       "Slug": "gambia",
       "Lat": "13.4432",
       "Long": "-15.3101",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 3684,
-      "NewDeaths": 0,
-      "TotalDeaths": 121,
-      "NewRecovered": 6,
-      "TotalRecovered": 3533,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 12,
+      "TotalConfirmed": 3696,
+      "NewDeaths": 1,
+      "TotalDeaths": 122,
+      "NewRecovered": 10,
+      "TotalRecovered": 3543,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Georgia",
@@ -854,13 +854,13 @@
       "Slug": "georgia",
       "Lat": "42.3154",
       "Long": "43.3569",
-      "NewConfirmed": 2901,
-      "TotalConfirmed": 57753,
-      "NewDeaths": 34,
-      "TotalDeaths": 475,
-      "NewRecovered": 2799,
-      "TotalRecovered": 42572,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 2927,
+      "TotalConfirmed": 60680,
+      "NewDeaths": 24,
+      "TotalDeaths": 499,
+      "NewRecovered": 2470,
+      "TotalRecovered": 45042,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Germany",
@@ -868,13 +868,13 @@
       "Slug": "germany",
       "Lat": "51.165691",
       "Long": "10.451526",
-      "NewConfirmed": 14510,
-      "TotalConfirmed": 682624,
-      "NewDeaths": 66,
-      "TotalDeaths": 11372,
-      "NewRecovered": 7667,
-      "TotalRecovered": 421151,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 6522,
+      "TotalConfirmed": 689146,
+      "NewDeaths": 36,
+      "TotalDeaths": 11408,
+      "NewRecovered": 22470,
+      "TotalRecovered": 443621,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Ghana",
@@ -882,13 +882,13 @@
       "Slug": "ghana",
       "Lat": "7.9465",
       "Long": "-1.0232",
-      "NewConfirmed": 198,
-      "TotalConfirmed": 49102,
+      "NewConfirmed": 100,
+      "TotalConfirmed": 49202,
       "NewDeaths": 0,
       "TotalDeaths": 320,
-      "NewRecovered": 115,
+      "NewRecovered": 0,
       "TotalRecovered": 47726,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Greece",
@@ -896,13 +896,13 @@
       "Slug": "greece",
       "Lat": "39.0742",
       "Long": "21.8243",
-      "NewConfirmed": 1889,
-      "TotalConfirmed": 56698,
-      "NewDeaths": 35,
-      "TotalDeaths": 784,
+      "NewConfirmed": 1489,
+      "TotalConfirmed": 58187,
+      "NewDeaths": 41,
+      "TotalDeaths": 825,
       "NewRecovered": 0,
       "TotalRecovered": 23074,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Grenada",
@@ -910,13 +910,13 @@
       "Slug": "grenada",
       "Lat": "12.1165",
       "Long": "-61.679",
-      "NewConfirmed": 2,
+      "NewConfirmed": 0,
       "TotalConfirmed": 32,
       "NewDeaths": 0,
       "TotalDeaths": 0,
       "NewRecovered": 0,
       "TotalRecovered": 27,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Guatemala",
@@ -924,13 +924,13 @@
       "Slug": "guatemala",
       "Lat": "15.7835",
       "Long": "-90.2308",
-      "NewConfirmed": 212,
-      "TotalConfirmed": 111262,
-      "NewDeaths": 10,
-      "TotalDeaths": 3821,
-      "NewRecovered": 327,
-      "TotalRecovered": 101135,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 98,
+      "TotalConfirmed": 111360,
+      "NewDeaths": 2,
+      "TotalDeaths": 3823,
+      "NewRecovered": 343,
+      "TotalRecovered": 101478,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Guinea",
@@ -938,13 +938,13 @@
       "Slug": "guinea",
       "Lat": "9.9456",
       "Long": "-9.6966",
-      "NewConfirmed": 14,
-      "TotalConfirmed": 12414,
-      "NewDeaths": 1,
+      "NewConfirmed": 45,
+      "TotalConfirmed": 12459,
+      "NewDeaths": 0,
       "TotalDeaths": 74,
-      "NewRecovered": 37,
-      "TotalRecovered": 10817,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 30,
+      "TotalRecovered": 10847,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Guinea-Bissau",
@@ -952,13 +952,13 @@
       "Slug": "guinea-bissau",
       "Lat": "11.8037",
       "Long": "-15.1804",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 2414,
-      "NewDeaths": 0,
-      "TotalDeaths": 42,
-      "NewRecovered": 0,
-      "TotalRecovered": 1862,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 5,
+      "TotalConfirmed": 2419,
+      "NewDeaths": 1,
+      "TotalDeaths": 43,
+      "NewRecovered": 393,
+      "TotalRecovered": 2255,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Guyana",
@@ -966,13 +966,13 @@
       "Slug": "guyana",
       "Lat": "4.860416",
       "Long": "-58.93018",
-      "NewConfirmed": 30,
-      "TotalConfirmed": 4514,
-      "NewDeaths": 0,
-      "TotalDeaths": 134,
-      "NewRecovered": 15,
-      "TotalRecovered": 3526,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 10,
+      "TotalConfirmed": 4524,
+      "NewDeaths": 1,
+      "TotalDeaths": 135,
+      "NewRecovered": 23,
+      "TotalRecovered": 3549,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Haiti",
@@ -980,13 +980,13 @@
       "Slug": "haiti",
       "Lat": "18.9712",
       "Long": "-72.2852",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 9127,
+      "NewConfirmed": 10,
+      "TotalConfirmed": 9137,
       "NewDeaths": 0,
       "TotalDeaths": 232,
       "NewRecovered": 0,
       "TotalRecovered": 7618,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Honduras",
@@ -994,13 +994,13 @@
       "Slug": "honduras",
       "Lat": "15.2",
       "Long": "-86.2419",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 100041,
-      "NewDeaths": 0,
-      "TotalDeaths": 2745,
-      "NewRecovered": 0,
-      "TotalRecovered": 42815,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 532,
+      "TotalConfirmed": 100573,
+      "NewDeaths": 20,
+      "TotalDeaths": 2765,
+      "NewRecovered": 362,
+      "TotalRecovered": 43177,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Hungary",
@@ -1008,13 +1008,13 @@
       "Slug": "hungary",
       "Lat": "47.1625",
       "Long": "19.5033",
-      "NewConfirmed": 4673,
-      "TotalConfirmed": 109616,
-      "NewDeaths": 81,
-      "TotalDeaths": 2438,
-      "NewRecovered": 223,
-      "TotalRecovered": 25070,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 5162,
+      "TotalConfirmed": 114778,
+      "NewDeaths": 55,
+      "TotalDeaths": 2493,
+      "NewRecovered": 1091,
+      "TotalRecovered": 26161,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Iceland",
@@ -1022,13 +1022,13 @@
       "Slug": "iceland",
       "Lat": "64.9631",
       "Long": "-19.0208",
-      "NewConfirmed": 15,
-      "TotalConfirmed": 5078,
-      "NewDeaths": 2,
-      "TotalDeaths": 20,
-      "NewRecovered": 88,
-      "TotalRecovered": 4423,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 23,
+      "TotalConfirmed": 5101,
+      "NewDeaths": 3,
+      "TotalDeaths": 23,
+      "NewRecovered": 33,
+      "TotalRecovered": 4456,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "India",
@@ -1036,13 +1036,13 @@
       "Slug": "india",
       "Lat": "20.593684",
       "Long": "78.96288",
-      "NewConfirmed": 45903,
-      "TotalConfirmed": 8553657,
-      "NewDeaths": 490,
-      "TotalDeaths": 126611,
-      "NewRecovered": 48405,
-      "TotalRecovered": 7917373,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 38073,
+      "TotalConfirmed": 8591730,
+      "NewDeaths": 448,
+      "TotalDeaths": 127059,
+      "NewRecovered": 42033,
+      "TotalRecovered": 7959406,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Indonesia",
@@ -1050,13 +1050,13 @@
       "Slug": "indonesia",
       "Lat": "-0.7893",
       "Long": "113.9213",
-      "NewConfirmed": 3880,
-      "TotalConfirmed": 437716,
-      "NewDeaths": 74,
-      "TotalDeaths": 14614,
-      "NewRecovered": 3881,
-      "TotalRecovered": 368298,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 2853,
+      "TotalConfirmed": 440569,
+      "NewDeaths": 75,
+      "TotalDeaths": 14689,
+      "NewRecovered": 3968,
+      "TotalRecovered": 372266,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Iran, Islamic Republic of",
@@ -1064,13 +1064,13 @@
       "Slug": "iran",
       "Lat": "32.427908",
       "Long": "53.688046",
-      "NewConfirmed": 9236,
-      "TotalConfirmed": 682486,
-      "NewDeaths": 459,
-      "TotalDeaths": 38291,
-      "NewRecovered": 5176,
-      "TotalRecovered": 520329,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 10463,
+      "TotalConfirmed": 692949,
+      "NewDeaths": 458,
+      "TotalDeaths": 38749,
+      "NewRecovered": 5312,
+      "TotalRecovered": 525641,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Iraq",
@@ -1078,13 +1078,13 @@
       "Slug": "iraq",
       "Lat": "33.223191",
       "Long": "43.679291",
-      "NewConfirmed": 2530,
-      "TotalConfirmed": 498549,
-      "NewDeaths": 44,
-      "TotalDeaths": 11327,
-      "NewRecovered": 3002,
-      "TotalRecovered": 428928,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 3184,
+      "TotalConfirmed": 501733,
+      "NewDeaths": 53,
+      "TotalDeaths": 11380,
+      "NewRecovered": 3305,
+      "TotalRecovered": 432233,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Ireland",
@@ -1092,13 +1092,13 @@
       "Slug": "ireland",
       "Lat": "53.1424",
       "Long": "-7.6921",
-      "NewConfirmed": 539,
-      "TotalConfirmed": 65394,
-      "NewDeaths": 2,
-      "TotalDeaths": 1947,
+      "NewConfirmed": 265,
+      "TotalConfirmed": 65659,
+      "NewDeaths": 1,
+      "TotalDeaths": 1948,
       "NewRecovered": 0,
       "TotalRecovered": 23364,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Israel",
@@ -1106,13 +1106,13 @@
       "Slug": "israel",
       "Lat": "31.046051",
       "Long": "34.851612",
-      "NewConfirmed": 292,
-      "TotalConfirmed": 319241,
-      "NewDeaths": 10,
-      "TotalDeaths": 2674,
-      "NewRecovered": 1090,
-      "TotalRecovered": 308563,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 943,
+      "TotalConfirmed": 320184,
+      "NewDeaths": 4,
+      "TotalDeaths": 2678,
+      "NewRecovered": 861,
+      "TotalRecovered": 309424,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Italy",
@@ -1120,13 +1120,13 @@
       "Slug": "italy",
       "Lat": "41.87194",
       "Long": "12.56738",
-      "NewConfirmed": 32614,
-      "TotalConfirmed": 935104,
-      "NewDeaths": 331,
-      "TotalDeaths": 41394,
-      "NewRecovered": 6183,
-      "TotalRecovered": 335074,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 25269,
+      "TotalConfirmed": 960373,
+      "NewDeaths": 356,
+      "TotalDeaths": 41750,
+      "NewRecovered": 10215,
+      "TotalRecovered": 345289,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Jamaica",
@@ -1134,13 +1134,13 @@
       "Slug": "jamaica",
       "Lat": "18.1096",
       "Long": "-77.2975",
-      "NewConfirmed": 34,
-      "TotalConfirmed": 9506,
-      "NewDeaths": 3,
+      "NewConfirmed": 36,
+      "TotalConfirmed": 9542,
+      "NewDeaths": 0,
       "TotalDeaths": 221,
-      "NewRecovered": 56,
-      "TotalRecovered": 4934,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 18,
+      "TotalRecovered": 4952,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Japan",
@@ -1148,13 +1148,13 @@
       "Slug": "japan",
       "Lat": "36.204824",
       "Long": "138.252924",
-      "NewConfirmed": 955,
-      "TotalConfirmed": 108394,
-      "NewDeaths": 6,
-      "TotalDeaths": 1821,
-      "NewRecovered": 727,
-      "TotalRecovered": 96430,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 797,
+      "TotalConfirmed": 109191,
+      "NewDeaths": 13,
+      "TotalDeaths": 1834,
+      "NewRecovered": 254,
+      "TotalRecovered": 96684,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Jordan",
@@ -1162,13 +1162,13 @@
       "Slug": "jordan",
       "Lat": "31.24",
       "Long": "36.51",
-      "NewConfirmed": 4519,
-      "TotalConfirmed": 109321,
-      "NewDeaths": 52,
-      "TotalDeaths": 1233,
-      "NewRecovered": 179,
-      "TotalRecovered": 8808,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 5665,
+      "TotalConfirmed": 114986,
+      "NewDeaths": 62,
+      "TotalDeaths": 1295,
+      "NewRecovered": 225,
+      "TotalRecovered": 9033,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Kazakhstan",
@@ -1176,13 +1176,13 @@
       "Slug": "kazakhstan",
       "Lat": "48.0196",
       "Long": "66.9237",
-      "NewConfirmed": 610,
-      "TotalConfirmed": 116772,
+      "NewConfirmed": 564,
+      "TotalConfirmed": 117336,
       "NewDeaths": 0,
       "TotalDeaths": 1857,
-      "NewRecovered": 175,
-      "TotalRecovered": 107843,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 326,
+      "TotalRecovered": 108169,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Kenya",
@@ -1190,13 +1190,13 @@
       "Slug": "kenya",
       "Lat": "-0.0236",
       "Long": "37.9062",
-      "NewConfirmed": 719,
-      "TotalConfirmed": 62488,
-      "NewDeaths": 8,
-      "TotalDeaths": 1111,
-      "NewRecovered": 912,
-      "TotalRecovered": 41931,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 756,
+      "TotalConfirmed": 63244,
+      "NewDeaths": 19,
+      "TotalDeaths": 1130,
+      "NewRecovered": 728,
+      "TotalRecovered": 42659,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Korea (South)",
@@ -1204,13 +1204,13 @@
       "Slug": "korea-south",
       "Lat": "35.907757",
       "Long": "127.766922",
-      "NewConfirmed": 126,
-      "TotalConfirmed": 27553,
-      "NewDeaths": 2,
-      "TotalDeaths": 480,
-      "NewRecovered": 61,
-      "TotalRecovered": 25029,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 100,
+      "TotalConfirmed": 27653,
+      "NewDeaths": 5,
+      "TotalDeaths": 485,
+      "NewRecovered": 131,
+      "TotalRecovered": 25160,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Kuwait",
@@ -1218,13 +1218,13 @@
       "Slug": "kuwait",
       "Lat": "29.31166",
       "Long": "47.481766",
-      "NewConfirmed": 538,
-      "TotalConfirmed": 131743,
-      "NewDeaths": 3,
-      "TotalDeaths": 811,
-      "NewRecovered": 687,
-      "TotalRecovered": 122576,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 735,
+      "TotalConfirmed": 132478,
+      "NewDeaths": 5,
+      "TotalDeaths": 816,
+      "NewRecovered": 738,
+      "TotalRecovered": 123314,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Kyrgyzstan",
@@ -1232,13 +1232,13 @@
       "Slug": "kyrgyzstan",
       "Lat": "41.20438",
       "Long": "74.766098",
-      "NewConfirmed": 515,
-      "TotalConfirmed": 62819,
+      "NewConfirmed": 571,
+      "TotalConfirmed": 63390,
       "NewDeaths": 5,
-      "TotalDeaths": 1177,
-      "NewRecovered": 546,
-      "TotalRecovered": 53952,
-      "Date": "2020-11-10T01:38:44Z"
+      "TotalDeaths": 1182,
+      "NewRecovered": 406,
+      "TotalRecovered": 54358,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Latvia",
@@ -1246,13 +1246,13 @@
       "Slug": "latvia",
       "Lat": "56.8796",
       "Long": "24.6032",
-      "NewConfirmed": 215,
-      "TotalConfirmed": 8095,
-      "NewDeaths": 3,
-      "TotalDeaths": 99,
-      "NewRecovered": 22,
+      "NewConfirmed": 92,
+      "TotalConfirmed": 8187,
+      "NewDeaths": 2,
+      "TotalDeaths": 101,
+      "NewRecovered": 0,
       "TotalRecovered": 1466,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Lebanon",
@@ -1260,13 +1260,13 @@
       "Slug": "lebanon",
       "Lat": "33.8547",
       "Long": "35.8623",
-      "NewConfirmed": 1139,
-      "TotalConfirmed": 94236,
-      "NewDeaths": 10,
-      "TotalDeaths": 723,
-      "NewRecovered": 0,
-      "TotalRecovered": 46602,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1119,
+      "TotalConfirmed": 95355,
+      "NewDeaths": 9,
+      "TotalDeaths": 732,
+      "NewRecovered": 5126,
+      "TotalRecovered": 51728,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Lesotho",
@@ -1280,7 +1280,7 @@
       "TotalDeaths": 44,
       "NewRecovered": 0,
       "TotalRecovered": 1024,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Liberia",
@@ -1288,13 +1288,13 @@
       "Slug": "liberia",
       "Lat": "6.428055",
       "Long": "-9.429499",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 1442,
+      "NewConfirmed": 10,
+      "TotalConfirmed": 1452,
       "NewDeaths": 0,
       "TotalDeaths": 82,
       "NewRecovered": 0,
       "TotalRecovered": 1310,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Libya",
@@ -1302,13 +1302,13 @@
       "Slug": "libya",
       "Lat": "26.3351",
       "Long": "17.228331",
-      "NewConfirmed": 1078,
-      "TotalConfirmed": 68117,
-      "NewDeaths": 9,
-      "TotalDeaths": 929,
-      "NewRecovered": 876,
-      "TotalRecovered": 40119,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 923,
+      "TotalConfirmed": 69040,
+      "NewDeaths": 15,
+      "TotalDeaths": 944,
+      "NewRecovered": 661,
+      "TotalRecovered": 40780,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Liechtenstein",
@@ -1316,13 +1316,13 @@
       "Slug": "liechtenstein",
       "Lat": "47.14",
       "Long": "9.55",
-      "NewConfirmed": 23,
-      "TotalConfirmed": 788,
-      "NewDeaths": 0,
-      "TotalDeaths": 3,
-      "NewRecovered": 0,
-      "TotalRecovered": 481,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 13,
+      "TotalConfirmed": 801,
+      "NewDeaths": 1,
+      "TotalDeaths": 4,
+      "NewRecovered": 84,
+      "TotalRecovered": 565,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Lithuania",
@@ -1330,13 +1330,13 @@
       "Slug": "lithuania",
       "Lat": "55.1694",
       "Long": "23.8813",
-      "NewConfirmed": 1980,
-      "TotalConfirmed": 24699,
-      "NewDeaths": 4,
-      "TotalDeaths": 207,
-      "NewRecovered": 85,
-      "TotalRecovered": 5700,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1056,
+      "TotalConfirmed": 25755,
+      "NewDeaths": 3,
+      "TotalDeaths": 210,
+      "NewRecovered": 113,
+      "TotalRecovered": 5813,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Luxembourg",
@@ -1344,13 +1344,13 @@
       "Slug": "luxembourg",
       "Lat": "49.8153",
       "Long": "6.1296",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 21806,
-      "NewDeaths": 0,
-      "TotalDeaths": 180,
-      "NewRecovered": 0,
-      "TotalRecovered": 12094,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1421,
+      "TotalConfirmed": 23227,
+      "NewDeaths": 13,
+      "TotalDeaths": 193,
+      "NewRecovered": 1819,
+      "TotalRecovered": 13913,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Madagascar",
@@ -1358,13 +1358,13 @@
       "Slug": "madagascar",
       "Lat": "-18.766947",
       "Long": "46.869107",
-      "NewConfirmed": 112,
+      "NewConfirmed": 0,
       "TotalConfirmed": 17223,
-      "NewDeaths": 5,
+      "NewDeaths": 0,
       "TotalDeaths": 249,
-      "NewRecovered": 107,
+      "NewRecovered": 0,
       "TotalRecovered": 16516,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Malawi",
@@ -1372,13 +1372,13 @@
       "Slug": "malawi",
       "Lat": "-13.2543",
       "Long": "34.3015",
-      "NewConfirmed": 3,
-      "TotalConfirmed": 5951,
-      "NewDeaths": 0,
-      "TotalDeaths": 184,
-      "NewRecovered": 2,
-      "TotalRecovered": 5348,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 2,
+      "TotalConfirmed": 5953,
+      "NewDeaths": 1,
+      "TotalDeaths": 185,
+      "NewRecovered": 11,
+      "TotalRecovered": 5359,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Malaysia",
@@ -1386,13 +1386,13 @@
       "Slug": "malaysia",
       "Lat": "4.210484",
       "Long": "101.975766",
-      "NewConfirmed": 852,
-      "TotalConfirmed": 40209,
-      "NewDeaths": 4,
-      "TotalDeaths": 286,
-      "NewRecovered": 825,
-      "TotalRecovered": 28234,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 972,
+      "TotalConfirmed": 41181,
+      "NewDeaths": 8,
+      "TotalDeaths": 294,
+      "NewRecovered": 1345,
+      "TotalRecovered": 29579,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Maldives",
@@ -1400,13 +1400,13 @@
       "Slug": "maldives",
       "Lat": "3.2028",
       "Long": "73.2207",
-      "NewConfirmed": 24,
-      "TotalConfirmed": 11986,
-      "NewDeaths": 0,
-      "TotalDeaths": 39,
-      "NewRecovered": 26,
-      "TotalRecovered": 11092,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 23,
+      "TotalConfirmed": 12009,
+      "NewDeaths": 1,
+      "TotalDeaths": 40,
+      "NewRecovered": 40,
+      "TotalRecovered": 11132,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Mali",
@@ -1414,13 +1414,13 @@
       "Slug": "mali",
       "Lat": "17.570692",
       "Long": "-3.996166",
-      "NewConfirmed": 30,
-      "TotalConfirmed": 3706,
+      "NewConfirmed": 6,
+      "TotalConfirmed": 3712,
       "NewDeaths": 0,
       "TotalDeaths": 137,
-      "NewRecovered": 6,
-      "TotalRecovered": 2828,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 4,
+      "TotalRecovered": 2832,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Malta",
@@ -1429,12 +1429,12 @@
       "Lat": "35.9375",
       "Long": "14.3754",
       "NewConfirmed": 102,
-      "TotalConfirmed": 7141,
+      "TotalConfirmed": 7243,
       "NewDeaths": 2,
-      "TotalDeaths": 76,
-      "NewRecovered": 103,
-      "TotalRecovered": 5103,
-      "Date": "2020-11-10T01:38:44Z"
+      "TotalDeaths": 78,
+      "NewRecovered": 82,
+      "TotalRecovered": 5185,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Marshall Islands",
@@ -1448,7 +1448,7 @@
       "TotalDeaths": 0,
       "NewRecovered": 0,
       "TotalRecovered": 0,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Mauritania",
@@ -1456,13 +1456,13 @@
       "Slug": "mauritania",
       "Lat": "21.0079",
       "Long": "-10.9408",
-      "NewConfirmed": 6,
-      "TotalConfirmed": 7820,
+      "NewConfirmed": 13,
+      "TotalConfirmed": 7833,
       "NewDeaths": 0,
       "TotalDeaths": 165,
       "NewRecovered": 6,
-      "TotalRecovered": 7479,
-      "Date": "2020-11-10T01:38:44Z"
+      "TotalRecovered": 7485,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Mauritius",
@@ -1476,7 +1476,7 @@
       "TotalDeaths": 10,
       "NewRecovered": 0,
       "TotalRecovered": 416,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Mexico",
@@ -1484,13 +1484,13 @@
       "Slug": "mexico",
       "Lat": "23.6345",
       "Long": "-102.5528",
-      "NewConfirmed": 5887,
+      "NewConfirmed": 0,
       "TotalConfirmed": 967825,
-      "NewDeaths": 219,
+      "NewDeaths": 0,
       "TotalDeaths": 95027,
-      "NewRecovered": 7696,
+      "NewRecovered": 0,
       "TotalRecovered": 824355,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Moldova",
@@ -1498,13 +1498,13 @@
       "Slug": "moldova",
       "Lat": "47.4116",
       "Long": "28.3699",
-      "NewConfirmed": 671,
-      "TotalConfirmed": 82346,
-      "NewDeaths": 2,
-      "TotalDeaths": 1893,
-      "NewRecovered": 1194,
-      "TotalRecovered": 62508,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 331,
+      "TotalConfirmed": 82677,
+      "NewDeaths": 19,
+      "TotalDeaths": 1912,
+      "NewRecovered": 1138,
+      "TotalRecovered": 63646,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Monaco",
@@ -1512,13 +1512,13 @@
       "Slug": "monaco",
       "Lat": "43.7333",
       "Long": "7.4167",
-      "NewConfirmed": 3,
-      "TotalConfirmed": 486,
+      "NewConfirmed": 4,
+      "TotalConfirmed": 490,
       "NewDeaths": 0,
       "TotalDeaths": 2,
-      "NewRecovered": 14,
-      "TotalRecovered": 345,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 24,
+      "TotalRecovered": 369,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Mongolia",
@@ -1526,13 +1526,13 @@
       "Slug": "mongolia",
       "Lat": "46.8625",
       "Long": "103.8467",
-      "NewConfirmed": 5,
-      "TotalConfirmed": 362,
+      "NewConfirmed": 6,
+      "TotalConfirmed": 368,
       "NewDeaths": 0,
       "TotalDeaths": 0,
-      "NewRecovered": 3,
+      "NewRecovered": 0,
       "TotalRecovered": 317,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Montenegro",
@@ -1540,13 +1540,13 @@
       "Slug": "montenegro",
       "Lat": "42.708678",
       "Long": "19.37439",
-      "NewConfirmed": 426,
-      "TotalConfirmed": 22805,
-      "NewDeaths": 4,
-      "TotalDeaths": 337,
-      "NewRecovered": 349,
-      "TotalRecovered": 15893,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 803,
+      "TotalConfirmed": 23608,
+      "NewDeaths": 5,
+      "TotalDeaths": 342,
+      "NewRecovered": 196,
+      "TotalRecovered": 16089,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Morocco",
@@ -1554,13 +1554,13 @@
       "Slug": "morocco",
       "Lat": "31.7917",
       "Long": "-7.0926",
-      "NewConfirmed": 4596,
-      "TotalConfirmed": 256781,
-      "NewDeaths": 75,
-      "TotalDeaths": 4272,
-      "NewRecovered": 4245,
-      "TotalRecovered": 209801,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 3170,
+      "TotalConfirmed": 259951,
+      "NewDeaths": 84,
+      "TotalDeaths": 4356,
+      "NewRecovered": 3104,
+      "TotalRecovered": 212905,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Mozambique",
@@ -1568,13 +1568,13 @@
       "Slug": "mozambique",
       "Lat": "-18.665695",
       "Long": "35.529562",
-      "NewConfirmed": 191,
-      "TotalConfirmed": 13768,
+      "NewConfirmed": 55,
+      "TotalConfirmed": 13823,
       "NewDeaths": 0,
       "TotalDeaths": 99,
-      "NewRecovered": 24,
-      "TotalRecovered": 11605,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 54,
+      "TotalRecovered": 11659,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Namibia",
@@ -1582,13 +1582,13 @@
       "Slug": "namibia",
       "Lat": "-22.9576",
       "Long": "18.4904",
-      "NewConfirmed": 41,
-      "TotalConfirmed": 13211,
+      "NewConfirmed": 29,
+      "TotalConfirmed": 13240,
       "NewDeaths": 0,
       "TotalDeaths": 134,
-      "NewRecovered": 3,
-      "TotalRecovered": 11605,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 15,
+      "TotalRecovered": 11620,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Nepal",
@@ -1596,13 +1596,13 @@
       "Slug": "nepal",
       "Lat": "28.1667",
       "Long": "84.25",
-      "NewConfirmed": 2817,
-      "TotalConfirmed": 194453,
-      "NewDeaths": 21,
-      "TotalDeaths": 1108,
-      "NewRecovered": 2812,
-      "TotalRecovered": 157926,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 2571,
+      "TotalConfirmed": 197024,
+      "NewDeaths": 18,
+      "TotalDeaths": 1126,
+      "NewRecovered": 1798,
+      "TotalRecovered": 159724,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Netherlands",
@@ -1610,13 +1610,13 @@
       "Slug": "netherlands",
       "Lat": "12.5211",
       "Long": "-69.9683",
-      "NewConfirmed": 5664,
-      "TotalConfirmed": 410065,
-      "NewDeaths": 44,
-      "TotalDeaths": 8004,
+      "NewConfirmed": 4680,
+      "TotalConfirmed": 414745,
+      "NewDeaths": 39,
+      "TotalDeaths": 8043,
       "NewRecovered": 0,
       "TotalRecovered": 0,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "New Zealand",
@@ -1624,13 +1624,13 @@
       "Slug": "new-zealand",
       "Lat": "-40.9006",
       "Long": "174.886",
-      "NewConfirmed": 4,
-      "TotalConfirmed": 1986,
+      "NewConfirmed": 1,
+      "TotalConfirmed": 1987,
       "NewDeaths": 0,
       "TotalDeaths": 25,
-      "NewRecovered": 1,
+      "NewRecovered": 0,
       "TotalRecovered": 1910,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Nicaragua",
@@ -1644,7 +1644,7 @@
       "TotalDeaths": 157,
       "NewRecovered": 0,
       "TotalRecovered": 4225,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Niger",
@@ -1652,13 +1652,13 @@
       "Slug": "niger",
       "Lat": "17.607789",
       "Long": "8.081666",
-      "NewConfirmed": 1,
-      "TotalConfirmed": 1243,
+      "NewConfirmed": 3,
+      "TotalConfirmed": 1246,
       "NewDeaths": 0,
       "TotalDeaths": 69,
-      "NewRecovered": 1,
+      "NewRecovered": 0,
       "TotalRecovered": 1144,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Nigeria",
@@ -1666,13 +1666,13 @@
       "Slug": "nigeria",
       "Lat": "9.082",
       "Long": "8.6753",
-      "NewConfirmed": 300,
-      "TotalConfirmed": 64090,
-      "NewDeaths": 0,
-      "TotalDeaths": 1155,
-      "NewRecovered": 26,
-      "TotalRecovered": 59910,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 94,
+      "TotalConfirmed": 64184,
+      "NewDeaths": 4,
+      "TotalDeaths": 1158,
+      "NewRecovered": 159,
+      "TotalRecovered": 60069,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Norway",
@@ -1680,13 +1680,13 @@
       "Slug": "norway",
       "Lat": "60.472",
       "Long": "8.4689",
-      "NewConfirmed": 489,
-      "TotalConfirmed": 24732,
+      "NewConfirmed": 593,
+      "TotalConfirmed": 25325,
       "NewDeaths": 0,
       "TotalDeaths": 285,
       "NewRecovered": 0,
       "TotalRecovered": 11863,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Oman",
@@ -1694,13 +1694,13 @@
       "Slug": "oman",
       "Lat": "21.512583",
       "Long": "55.923255",
-      "NewConfirmed": 973,
-      "TotalConfirmed": 118140,
-      "NewDeaths": 15,
-      "TotalDeaths": 1301,
-      "NewRecovered": 1313,
-      "TotalRecovered": 108681,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 363,
+      "TotalConfirmed": 118503,
+      "NewDeaths": 9,
+      "TotalDeaths": 1310,
+      "NewRecovered": 287,
+      "TotalRecovered": 108968,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Pakistan",
@@ -1708,13 +1708,13 @@
       "Slug": "pakistan",
       "Lat": "30.3753",
       "Long": "69.3451",
-      "NewConfirmed": 1650,
-      "TotalConfirmed": 344839,
-      "NewDeaths": 9,
-      "TotalDeaths": 6977,
-      "NewRecovered": 464,
-      "TotalRecovered": 318881,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1637,
+      "TotalConfirmed": 346476,
+      "NewDeaths": 23,
+      "TotalDeaths": 7000,
+      "NewRecovered": 550,
+      "TotalRecovered": 319431,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Panama",
@@ -1722,13 +1722,13 @@
       "Slug": "panama",
       "Lat": "8.538",
       "Long": "-80.7821",
-      "NewConfirmed": 1021,
-      "TotalConfirmed": 139527,
-      "NewDeaths": 17,
-      "TotalDeaths": 2798,
-      "NewRecovered": 947,
-      "TotalRecovered": 117770,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 804,
+      "TotalConfirmed": 140331,
+      "NewDeaths": 10,
+      "TotalDeaths": 2808,
+      "NewRecovered": 941,
+      "TotalRecovered": 118711,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Papua New Guinea",
@@ -1736,13 +1736,13 @@
       "Slug": "papua-new-guinea",
       "Lat": "-6.314993",
       "Long": "143.95555",
-      "NewConfirmed": 2,
+      "NewConfirmed": 0,
       "TotalConfirmed": 599,
       "NewDeaths": 0,
       "TotalDeaths": 7,
-      "NewRecovered": 5,
+      "NewRecovered": 0,
       "TotalRecovered": 585,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Paraguay",
@@ -1750,13 +1750,13 @@
       "Slug": "paraguay",
       "Lat": "-23.4425",
       "Long": "-58.4438",
-      "NewConfirmed": 648,
-      "TotalConfirmed": 67589,
-      "NewDeaths": 11,
-      "TotalDeaths": 1490,
-      "NewRecovered": 668,
-      "TotalRecovered": 47822,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 359,
+      "TotalConfirmed": 67948,
+      "NewDeaths": 12,
+      "TotalDeaths": 1502,
+      "NewRecovered": 615,
+      "TotalRecovered": 48437,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Peru",
@@ -1764,13 +1764,13 @@
       "Slug": "peru",
       "Lat": "-9.19",
       "Long": "-75.0152",
-      "NewConfirmed": 2507,
-      "TotalConfirmed": 920010,
-      "NewDeaths": 38,
-      "TotalDeaths": 34821,
-      "NewRecovered": 7432,
+      "NewConfirmed": 2323,
+      "TotalConfirmed": 922333,
+      "NewDeaths": 58,
+      "TotalDeaths": 34879,
+      "NewRecovered": 0,
       "TotalRecovered": 846215,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Philippines",
@@ -1778,13 +1778,13 @@
       "Slug": "philippines",
       "Lat": "12.879721",
       "Long": "121.774017",
-      "NewConfirmed": 2434,
-      "TotalConfirmed": 396395,
-      "NewDeaths": 54,
-      "TotalDeaths": 7539,
-      "NewRecovered": 11422,
-      "TotalRecovered": 361638,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 2054,
+      "TotalConfirmed": 398449,
+      "NewDeaths": 108,
+      "TotalDeaths": 7647,
+      "NewRecovered": 146,
+      "TotalRecovered": 361784,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Poland",
@@ -1792,13 +1792,13 @@
       "Slug": "poland",
       "Lat": "51.9194",
       "Long": "19.1451",
-      "NewConfirmed": 24785,
-      "TotalConfirmed": 546425,
-      "NewDeaths": 236,
-      "TotalDeaths": 7872,
-      "NewRecovered": 8853,
-      "TotalRecovered": 209363,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 21713,
+      "TotalConfirmed": 568138,
+      "NewDeaths": 173,
+      "TotalDeaths": 8045,
+      "NewRecovered": 10008,
+      "TotalRecovered": 219371,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Portugal",
@@ -1806,13 +1806,13 @@
       "Slug": "portugal",
       "Lat": "39.3999",
       "Long": "-8.2245",
-      "NewConfirmed": 5784,
-      "TotalConfirmed": 179324,
-      "NewDeaths": 48,
-      "TotalDeaths": 2896,
-      "NewRecovered": 2034,
-      "TotalRecovered": 99781,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 4096,
+      "TotalConfirmed": 183420,
+      "NewDeaths": 63,
+      "TotalDeaths": 2959,
+      "NewRecovered": 2302,
+      "TotalRecovered": 102083,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Qatar",
@@ -1820,13 +1820,13 @@
       "Slug": "qatar",
       "Lat": "25.3548",
       "Long": "51.1839",
-      "NewConfirmed": 190,
-      "TotalConfirmed": 134203,
+      "NewConfirmed": 230,
+      "TotalConfirmed": 134433,
       "NewDeaths": 0,
       "TotalDeaths": 232,
-      "NewRecovered": 201,
-      "TotalRecovered": 131276,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 214,
+      "TotalRecovered": 131490,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Romania",
@@ -1834,13 +1834,13 @@
       "Slug": "romania",
       "Lat": "45.9432",
       "Long": "24.9668",
-      "NewConfirmed": 6752,
-      "TotalConfirmed": 303751,
-      "NewDeaths": 86,
-      "TotalDeaths": 7879,
-      "NewRecovered": 3565,
-      "TotalRecovered": 204679,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 3240,
+      "TotalConfirmed": 306991,
+      "NewDeaths": 130,
+      "TotalDeaths": 8009,
+      "NewRecovered": 2114,
+      "TotalRecovered": 206793,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Russian Federation",
@@ -1848,13 +1848,13 @@
       "Slug": "russia",
       "Lat": "61.52401",
       "Long": "105.318756",
-      "NewConfirmed": 20248,
-      "TotalConfirmed": 1760420,
-      "NewDeaths": 282,
-      "TotalDeaths": 30292,
-      "NewRecovered": 11321,
-      "TotalRecovered": 1315928,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 21577,
+      "TotalConfirmed": 1781997,
+      "NewDeaths": 254,
+      "TotalDeaths": 30546,
+      "NewRecovered": 10640,
+      "TotalRecovered": 1326568,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Rwanda",
@@ -1862,13 +1862,13 @@
       "Slug": "rwanda",
       "Lat": "-1.9403",
       "Long": "29.8739",
-      "NewConfirmed": 9,
-      "TotalConfirmed": 5222,
-      "NewDeaths": 0,
-      "TotalDeaths": 36,
+      "NewConfirmed": 20,
+      "TotalConfirmed": 5242,
+      "NewDeaths": 2,
+      "TotalDeaths": 38,
       "NewRecovered": 7,
-      "TotalRecovered": 4960,
-      "Date": "2020-11-10T01:38:44Z"
+      "TotalRecovered": 4967,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Saint Kitts and Nevis",
@@ -1882,7 +1882,7 @@
       "TotalDeaths": 0,
       "NewRecovered": 0,
       "TotalRecovered": 19,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Saint Lucia",
@@ -1890,13 +1890,13 @@
       "Slug": "saint-lucia",
       "Lat": "13.9094",
       "Long": "-60.9789",
-      "NewConfirmed": 8,
-      "TotalConfirmed": 131,
+      "NewConfirmed": 10,
+      "TotalConfirmed": 141,
       "NewDeaths": 0,
       "TotalDeaths": 0,
       "NewRecovered": 0,
       "TotalRecovered": 32,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "San Marino",
@@ -1904,13 +1904,13 @@
       "Slug": "san-marino",
       "Lat": "43.9424",
       "Long": "12.4578",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 1043,
+      "NewConfirmed": 71,
+      "TotalConfirmed": 1114,
       "NewDeaths": 0,
       "TotalDeaths": 42,
-      "NewRecovered": 0,
-      "TotalRecovered": 754,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 35,
+      "TotalRecovered": 789,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Sao Tome and Principe",
@@ -1922,9 +1922,9 @@
       "TotalConfirmed": 962,
       "NewDeaths": 0,
       "TotalDeaths": 16,
-      "NewRecovered": 2,
+      "NewRecovered": 0,
       "TotalRecovered": 912,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Saudi Arabia",
@@ -1932,13 +1932,13 @@
       "Slug": "saudi-arabia",
       "Lat": "23.885942",
       "Long": "45.079162",
-      "NewConfirmed": 363,
-      "TotalConfirmed": 350592,
-      "NewDeaths": 15,
-      "TotalDeaths": 5540,
-      "NewRecovered": 420,
-      "TotalRecovered": 337386,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 392,
+      "TotalConfirmed": 350984,
+      "NewDeaths": 19,
+      "TotalDeaths": 5559,
+      "NewRecovered": 402,
+      "TotalRecovered": 337788,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Senegal",
@@ -1946,13 +1946,13 @@
       "Slug": "senegal",
       "Lat": "14.4974",
       "Long": "-14.4524",
-      "NewConfirmed": 15,
-      "TotalConfirmed": 15708,
+      "NewConfirmed": 3,
+      "TotalConfirmed": 15711,
       "NewDeaths": 0,
       "TotalDeaths": 326,
-      "NewRecovered": 19,
-      "TotalRecovered": 15336,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 13,
+      "TotalRecovered": 15349,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Serbia",
@@ -1960,13 +1960,13 @@
       "Slug": "serbia",
       "Lat": "44.0165",
       "Long": "21.0059",
-      "NewConfirmed": 2112,
-      "TotalConfirmed": 62747,
-      "NewDeaths": 10,
-      "TotalDeaths": 890,
+      "NewConfirmed": 1318,
+      "TotalConfirmed": 64065,
+      "NewDeaths": 11,
+      "TotalDeaths": 901,
       "NewRecovered": 0,
       "TotalRecovered": 0,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Seychelles",
@@ -1980,7 +1980,7 @@
       "TotalDeaths": 0,
       "NewRecovered": 0,
       "TotalRecovered": 155,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Sierra Leone",
@@ -1988,13 +1988,13 @@
       "Slug": "sierra-leone",
       "Lat": "8.460555",
       "Long": "-11.779889",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 2381,
+      "NewConfirmed": 4,
+      "TotalConfirmed": 2385,
       "NewDeaths": 0,
       "TotalDeaths": 74,
-      "NewRecovered": 0,
-      "TotalRecovered": 1812,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 1,
+      "TotalRecovered": 1813,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Singapore",
@@ -2002,13 +2002,13 @@
       "Slug": "singapore",
       "Lat": "1.2833",
       "Long": "103.8333",
-      "NewConfirmed": 2,
-      "TotalConfirmed": 58056,
+      "NewConfirmed": 8,
+      "TotalConfirmed": 58064,
       "NewDeaths": 0,
       "TotalDeaths": 28,
-      "NewRecovered": 7,
-      "TotalRecovered": 57975,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 6,
+      "TotalRecovered": 57981,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Slovakia",
@@ -2016,13 +2016,13 @@
       "Slug": "slovakia",
       "Lat": "48.669",
       "Long": "19.699",
-      "NewConfirmed": 1828,
-      "TotalConfirmed": 75495,
-      "NewDeaths": 0,
-      "TotalDeaths": 351,
-      "NewRecovered": 1127,
-      "TotalRecovered": 19481,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 577,
+      "TotalConfirmed": 76072,
+      "NewDeaths": 15,
+      "TotalDeaths": 366,
+      "NewRecovered": 276,
+      "TotalRecovered": 19757,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Slovenia",
@@ -2030,13 +2030,13 @@
       "Slug": "slovenia",
       "Lat": "46.1512",
       "Long": "14.9955",
-      "NewConfirmed": 891,
-      "TotalConfirmed": 45161,
-      "NewDeaths": 23,
-      "TotalDeaths": 554,
-      "NewRecovered": 1676,
-      "TotalRecovered": 22443,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 464,
+      "TotalConfirmed": 45625,
+      "NewDeaths": 24,
+      "TotalDeaths": 578,
+      "NewRecovered": 1090,
+      "TotalRecovered": 23533,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Solomon Islands",
@@ -2044,13 +2044,13 @@
       "Slug": "solomon-islands",
       "Lat": "-9.6457",
       "Long": "160.1562",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 13,
+      "NewConfirmed": 3,
+      "TotalConfirmed": 16,
       "NewDeaths": 0,
       "TotalDeaths": 0,
-      "NewRecovered": 0,
-      "TotalRecovered": 4,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 1,
+      "TotalRecovered": 5,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Somalia",
@@ -2058,13 +2058,13 @@
       "Slug": "somalia",
       "Lat": "5.152149",
       "Long": "46.199616",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 4229,
+      "NewConfirmed": 72,
+      "TotalConfirmed": 4301,
       "NewDeaths": 0,
       "TotalDeaths": 107,
       "NewRecovered": 0,
       "TotalRecovered": 3247,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "South Africa",
@@ -2072,13 +2072,13 @@
       "Slug": "south-africa",
       "Lat": "-30.5595",
       "Long": "22.9375",
-      "NewConfirmed": 1372,
-      "TotalConfirmed": 737278,
-      "NewDeaths": 20,
-      "TotalDeaths": 19809,
-      "NewRecovered": 950,
-      "TotalRecovered": 679688,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1247,
+      "TotalConfirmed": 738525,
+      "NewDeaths": 36,
+      "TotalDeaths": 19845,
+      "NewRecovered": 1038,
+      "TotalRecovered": 680726,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "South Sudan",
@@ -2086,13 +2086,13 @@
       "Slug": "south-sudan",
       "Lat": "6.877",
       "Long": "31.307",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 2943,
+      "NewConfirmed": 17,
+      "TotalConfirmed": 2960,
       "NewDeaths": 0,
       "TotalDeaths": 59,
       "NewRecovered": 0,
       "TotalRecovered": 1290,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Spain",
@@ -2100,13 +2100,13 @@
       "Slug": "spain",
       "Lat": "40.463667",
       "Long": "-3.74922",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 1328832,
-      "NewDeaths": 0,
-      "TotalDeaths": 38833,
+      "NewConfirmed": 52386,
+      "TotalConfirmed": 1381218,
+      "NewDeaths": 512,
+      "TotalDeaths": 39345,
       "NewRecovered": 0,
       "TotalRecovered": 150376,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Sri Lanka",
@@ -2114,13 +2114,13 @@
       "Slug": "sri-lanka",
       "Lat": "7.873054",
       "Long": "80.771797",
-      "NewConfirmed": 510,
-      "TotalConfirmed": 13929,
+      "NewConfirmed": 356,
+      "TotalConfirmed": 14285,
       "NewDeaths": 1,
-      "TotalDeaths": 35,
-      "NewRecovered": 562,
-      "TotalRecovered": 8285,
-      "Date": "2020-11-10T01:38:44Z"
+      "TotalDeaths": 36,
+      "NewRecovered": 595,
+      "TotalRecovered": 8880,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Sudan",
@@ -2128,13 +2128,13 @@
       "Slug": "sudan",
       "Lat": "12.8628",
       "Long": "30.2176",
-      "NewConfirmed": 147,
-      "TotalConfirmed": 14090,
-      "NewDeaths": 278,
-      "TotalDeaths": 1115,
-      "NewRecovered": 2720,
-      "TotalRecovered": 9484,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 65,
+      "TotalConfirmed": 14155,
+      "NewDeaths": 1,
+      "TotalDeaths": 1116,
+      "NewRecovered": 8,
+      "TotalRecovered": 9492,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Suriname",
@@ -2142,13 +2142,13 @@
       "Slug": "suriname",
       "Lat": "3.9193",
       "Long": "-56.0278",
-      "NewConfirmed": 5,
-      "TotalConfirmed": 5239,
+      "NewConfirmed": 2,
+      "TotalConfirmed": 5241,
       "NewDeaths": 0,
       "TotalDeaths": 113,
-      "NewRecovered": 2,
-      "TotalRecovered": 5107,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 3,
+      "TotalRecovered": 5110,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Sweden",
@@ -2162,7 +2162,7 @@
       "TotalDeaths": 6022,
       "NewRecovered": 0,
       "TotalRecovered": 0,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Switzerland",
@@ -2170,13 +2170,13 @@
       "Slug": "switzerland",
       "Lat": "46.8182",
       "Long": "8.2275",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 211913,
-      "NewDeaths": 23,
-      "TotalDeaths": 2772,
+      "NewConfirmed": 17309,
+      "TotalConfirmed": 229222,
+      "NewDeaths": 130,
+      "TotalDeaths": 2902,
       "NewRecovered": 0,
       "TotalRecovered": 87300,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Tajikistan",
@@ -2184,13 +2184,13 @@
       "Slug": "tajikistan",
       "Lat": "38.861",
       "Long": "71.2761",
-      "NewConfirmed": 42,
-      "TotalConfirmed": 11336,
+      "NewConfirmed": 40,
+      "TotalConfirmed": 11376,
       "NewDeaths": 0,
       "TotalDeaths": 83,
-      "NewRecovered": 59,
-      "TotalRecovered": 10653,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 58,
+      "TotalRecovered": 10711,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Thailand",
@@ -2198,13 +2198,13 @@
       "Slug": "thailand",
       "Lat": "15.870032",
       "Long": "100.992541",
-      "NewConfirmed": 3,
-      "TotalConfirmed": 3840,
+      "NewConfirmed": 4,
+      "TotalConfirmed": 3844,
       "NewDeaths": 0,
       "TotalDeaths": 60,
-      "NewRecovered": 7,
-      "TotalRecovered": 3661,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 9,
+      "TotalRecovered": 3670,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Timor-Leste",
@@ -2218,7 +2218,7 @@
       "TotalDeaths": 0,
       "NewRecovered": 0,
       "TotalRecovered": 29,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Togo",
@@ -2226,13 +2226,13 @@
       "Slug": "togo",
       "Lat": "8.6195",
       "Long": "0.8248",
-      "NewConfirmed": 33,
-      "TotalConfirmed": 2516,
+      "NewConfirmed": 7,
+      "TotalConfirmed": 2523,
       "NewDeaths": 0,
       "TotalDeaths": 57,
-      "NewRecovered": 5,
-      "TotalRecovered": 1732,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 4,
+      "TotalRecovered": 1736,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Trinidad and Tobago",
@@ -2240,13 +2240,13 @@
       "Slug": "trinidad-and-tobago",
       "Lat": "10.6918",
       "Long": "-61.2225",
-      "NewConfirmed": 11,
+      "NewConfirmed": 0,
       "TotalConfirmed": 5849,
       "NewDeaths": 0,
       "TotalDeaths": 111,
-      "NewRecovered": 5,
-      "TotalRecovered": 5132,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 71,
+      "TotalRecovered": 5203,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Tunisia",
@@ -2254,13 +2254,13 @@
       "Slug": "tunisia",
       "Lat": "33.886917",
       "Long": "9.537499",
-      "NewConfirmed": 1576,
-      "TotalConfirmed": 71119,
-      "NewDeaths": 79,
-      "TotalDeaths": 1873,
-      "NewRecovered": 687,
+      "NewConfirmed": 450,
+      "TotalConfirmed": 71569,
+      "NewDeaths": 47,
+      "TotalDeaths": 1920,
+      "NewRecovered": 0,
       "TotalRecovered": 48103,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Turkey",
@@ -2268,13 +2268,13 @@
       "Slug": "turkey",
       "Lat": "38.9637",
       "Long": "35.2433",
-      "NewConfirmed": 2516,
-      "TotalConfirmed": 394255,
-      "NewDeaths": 84,
-      "TotalDeaths": 10887,
-      "NewRecovered": 2018,
-      "TotalRecovered": 338239,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 2576,
+      "TotalConfirmed": 396831,
+      "NewDeaths": 85,
+      "TotalDeaths": 10972,
+      "NewRecovered": 2047,
+      "TotalRecovered": 340286,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Uganda",
@@ -2282,13 +2282,13 @@
       "Slug": "uganda",
       "Lat": "1.373333",
       "Long": "32.290275",
-      "NewConfirmed": 337,
-      "TotalConfirmed": 14403,
+      "NewConfirmed": 171,
+      "TotalConfirmed": 14574,
       "NewDeaths": 1,
-      "TotalDeaths": 132,
-      "NewRecovered": 18,
+      "TotalDeaths": 133,
+      "NewRecovered": 0,
       "TotalRecovered": 7771,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Ukraine",
@@ -2296,13 +2296,13 @@
       "Slug": "ukraine",
       "Lat": "48.3794",
       "Long": "31.1656",
-      "NewConfirmed": 9647,
-      "TotalConfirmed": 474245,
-      "NewDeaths": 142,
-      "TotalDeaths": 8695,
-      "NewRecovered": 2808,
-      "TotalRecovered": 215357,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 8908,
+      "TotalConfirmed": 483153,
+      "NewDeaths": 117,
+      "TotalDeaths": 8812,
+      "NewRecovered": 2359,
+      "TotalRecovered": 217716,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "United Arab Emirates",
@@ -2310,13 +2310,13 @@
       "Slug": "united-arab-emirates",
       "Lat": "23.424076",
       "Long": "53.847818",
-      "NewConfirmed": 1111,
-      "TotalConfirmed": 142143,
-      "NewDeaths": 0,
-      "TotalDeaths": 514,
-      "NewRecovered": 683,
-      "TotalRecovered": 138291,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1146,
+      "TotalConfirmed": 143289,
+      "NewDeaths": 1,
+      "TotalDeaths": 515,
+      "NewRecovered": 668,
+      "TotalRecovered": 138959,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "United Kingdom",
@@ -2324,13 +2324,13 @@
       "Slug": "united-kingdom",
       "Lat": "54.2361",
       "Long": "-4.5481",
-      "NewConfirmed": 20580,
-      "TotalConfirmed": 1195350,
-      "NewDeaths": 156,
-      "TotalDeaths": 49134,
-      "NewRecovered": 18,
-      "TotalRecovered": 2983,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 21397,
+      "TotalConfirmed": 1216747,
+      "NewDeaths": 195,
+      "TotalDeaths": 49329,
+      "NewRecovered": 15,
+      "TotalRecovered": 2998,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "United States of America",
@@ -2338,13 +2338,13 @@
       "Slug": "united-states",
       "Lat": "38.9072",
       "Long": "-77.0369",
-      "NewConfirmed": 118689,
-      "TotalConfirmed": 9985144,
-      "NewDeaths": 457,
-      "TotalDeaths": 237570,
-      "NewRecovered": 30026,
-      "TotalRecovered": 3881491,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 119944,
+      "TotalConfirmed": 10110552,
+      "NewDeaths": 477,
+      "TotalDeaths": 238256,
+      "NewRecovered": 47354,
+      "TotalRecovered": 3928845,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Uruguay",
@@ -2352,13 +2352,13 @@
       "Slug": "uruguay",
       "Lat": "-32.5228",
       "Long": "-55.7658",
-      "NewConfirmed": 73,
-      "TotalConfirmed": 3514,
-      "NewDeaths": 1,
+      "NewConfirmed": 46,
+      "TotalConfirmed": 3560,
+      "NewDeaths": 0,
       "TotalDeaths": 62,
-      "NewRecovered": 40,
-      "TotalRecovered": 2943,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 50,
+      "TotalRecovered": 2993,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Uzbekistan",
@@ -2366,13 +2366,26 @@
       "Slug": "uzbekistan",
       "Lat": "41.377491",
       "Long": "64.585262",
-      "NewConfirmed": 363,
-      "TotalConfirmed": 68730,
+      "NewConfirmed": 297,
+      "TotalConfirmed": 69027,
+      "NewDeaths": 3,
+      "TotalDeaths": 588,
+      "NewRecovered": 223,
+      "TotalRecovered": 66194,
+      "Date": "2020-11-11T00:24:25Z"
+    },
+    {
+      "Country": "Venezuela (Bolivarian Republic)",
+      "Slug": "venezuela",
+      "Lat": "6.4238",
+      "Long": "-66.5897",
+      "NewConfirmed": 266,
+      "TotalConfirmed": 95149,
       "NewDeaths": 4,
-      "TotalDeaths": 585,
-      "NewRecovered": 421,
-      "TotalRecovered": 65971,
-      "Date": "2020-11-10T01:38:44Z"
+      "TotalDeaths": 830,
+      "NewRecovered": 299,
+      "TotalRecovered": 90054,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Western Sahara",
@@ -2386,7 +2399,7 @@
       "TotalDeaths": 1,
       "NewRecovered": 0,
       "TotalRecovered": 8,
-      "Date": "2020-11-10T01:38:44Z"
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Yemen",
@@ -2394,13 +2407,13 @@
       "Slug": "yemen",
       "Lat": "15.552727",
       "Long": "48.516388",
-      "NewConfirmed": 0,
-      "TotalConfirmed": 2070,
-      "NewDeaths": 0,
-      "TotalDeaths": 602,
-      "NewRecovered": 0,
-      "TotalRecovered": 1375,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 1,
+      "TotalConfirmed": 2071,
+      "NewDeaths": 3,
+      "TotalDeaths": 605,
+      "NewRecovered": 19,
+      "TotalRecovered": 1394,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Zambia",
@@ -2408,13 +2421,13 @@
       "Slug": "zambia",
       "Lat": "-13.133897",
       "Long": "27.849332",
-      "NewConfirmed": 46,
-      "TotalConfirmed": 16954,
+      "NewConfirmed": 17,
+      "TotalConfirmed": 16971,
       "NewDeaths": 0,
       "TotalDeaths": 349,
-      "NewRecovered": 77,
-      "TotalRecovered": 15950,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewRecovered": 61,
+      "TotalRecovered": 16011,
+      "Date": "2020-11-11T00:24:25Z"
     },
     {
       "Country": "Zimbabwe",
@@ -2422,13 +2435,13 @@
       "Slug": "zimbabwe",
       "Lat": "-19.015438",
       "Long": "29.154857",
-      "NewConfirmed": 33,
-      "TotalConfirmed": 8531,
-      "NewDeaths": 2,
-      "TotalDeaths": 253,
-      "NewRecovered": 10,
-      "TotalRecovered": 8005,
-      "Date": "2020-11-10T01:38:44Z"
+      "NewConfirmed": 30,
+      "TotalConfirmed": 8561,
+      "NewDeaths": 1,
+      "TotalDeaths": 254,
+      "NewRecovered": 18,
+      "TotalRecovered": 8023,
+      "Date": "2020-11-11T00:24:25Z"
     }
   ]
 }

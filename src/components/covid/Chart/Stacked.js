@@ -31,9 +31,6 @@ function Stacked({ fetchedCountries }) {
                     yAxes: [
                         {
                             stacked: true,
-                            ticks: {
-                                beginAtZero: true,
-                            },
                         },
                     ],
                     xAxes: [
